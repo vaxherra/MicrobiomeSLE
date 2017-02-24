@@ -1,4 +1,4 @@
-# Microbiome study of Systemic Lupus Erythomatosus patients
+# Microbiome study of Systemic Lupus Erythematosus patients
 ## Study repository
 
 

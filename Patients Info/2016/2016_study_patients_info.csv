@@ -1,0 +1,1004 @@
+Group ,Diagnosis,Status/Notes,Patient ID,Appointment date,Delivery Date,Age,Gender,Ethnicity,Weight,Height,Other Health Issues,Current Meds,Tobacco Use,Caffeine Use,Alcohol Use,Recreational Drug Use,SSQ1,SSA1,SSQ2,SSA2,SSQ3,SSA3,SSQ4,SSA4,SSQ5,SSA5,Age of diagnosis,"If Lupus, do you have?",Lupus Method of Dx,Date of last relapse/flare?,Severity of symptoms (w/o Tx),Severity of symptoms (w/ Tx),Lupus Tx with Dosage/Frequency,History of Present Illness,Parents with your condition,Siblings with your condition,Children with your condition
+1,SLE,Complete,31219,6/15/16,6/16/16,49,Female,African American,243,5'4'',"Hypertension (high blood pressure)DepressionMyopiaLupus (Discoid)Lupus (SLE)Sjogren's Syndrome","Iron/325mg/QD Fluoxetine HCl/30mg/QD Carvedilol/6.25mg/BID Hydroxychloroquine/200mg/QD Triamterene and Hydrochlorothiazide/37.5-25mg/QD Losartan Potassium/100mg/QD Clopidogrel/75mg/QD Ibuprofen/800mg/BID Pravastatin/20mg/QD",No,No,No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,26,Anemia; Arthritis; Discoid Lupus; Malar Rash; Photosensitivity; Pleuritis/Pericarditis; Sjogren's,Blood Test,4/2016,Severe,Moderate,Hydroxychloroquine/200mg/QD,Subject was diagnosed in 1993 with SLE. She has a maternal aunt who has also been diagnosed with SLE.,No,No,No
+,SLE,Complete,30239,6/13/16,6/14/16,46,Female,African American,250,5'8'',"Allergy to penicillinFibromyalgiaLupus (SLE)Rheumatoid arthritis","Vitamin D/2000IU/QD Methotrexate/20mg/QW Folic acid/1mg/BID Azathioprine/50mg/TID Lyrica/50mg/QD Trazodone/50mg/QDIron/QD",No,"Yes Mild (1-2/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,44,Anemia; Arthritis; Leukopenia; Photosensitivity,Blood Test,5/2016,Severe,Severe,Methotrexate/20mg/QW,"Subject was diagnosed at age 44 with SLE. She is currently experiencing symptoms of pain, sensitivity to light, feeling overheated, and joint pain.",No,No,No
+,Control,Complete,29763,6/16/16,6/17/16,41,Female,African American,223,"5'4""",None,None,No,"Mild, 1-2/week",No,No,"Have you been diagnosed with any health conditions? [[Yes, No]]",No,"In the last four weeks, have you used any systemic antibiotics or antifungal medications? [[Yes, No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes, No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes, No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,SLE,Complete,28408,6/16/16,6/17/16,35,Female,African American,192,5'3'',"Allergy to antibiotics (unspecificed)Allergy to vicodinMyopiaArthritisLupus (Discoid) Lupus (SLE)Asthma",None,No,"Yes Moderate (3-5/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,18,Arthritis; Discoid Lupus; Malar Rash; Photosensitivity; Ulcers,Biopsy; Clinical Evaluation,5/2016,Moderate-Severe,Moderate-Severe,None,"Subject was diagnosed with SLE at age 18. Her last flare occurred about 2 weeks ago at the beginning of 5/2016. During a flare, she experience symptoms of joint pain, lethargy, and rashes.",Father,No,No
+,SLE,Complete,31686,6/2/16,6/3/16,36,Female,African American,205,5'6'',"Allergy to Penicillin, Adhesives, Vicodin, DilaudidRaynaud'sOvarian cysts (benign)Lupus (SLE)OsteoporosisNephritis Pulmonary embolism in 2012","Prednisone/7.5mg/QD Omeprazole/20mg/QD Metoprolol tartrate/50mg/BID Provera/10mg/QD - only one week out of the month Imuran/50mg/QD Losartan/100mg/QD Plaquenil/400mg/QD - every other day Plaquenil/200mg/QD - every other day Norvasc/5mg/QD Potassium chloride/10mg/BID Acyclovivir/400mg/QD Cholecalciferol/5000units/QD Vitamin B12/500mcg/QD Calcium carbonate and vitamin D/600mg-400unit/BID Myfortic/360mg/BID Warfarin/6mg/TID Warfarin/8mg/QID",No,"Yes Mild (1-2/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,31,ANA+; Arthritis; Lupus Nephritis; Photosensitivity; Pleuritis/Pericarditis; Raynaud's; Serositis,Blood Test; Clinical Evaluation,4/2015,Severe,Severe,"Prednisone/7.5mg/QD  Plaquenil/400mg/QD - every other day  Plaquenil/200mg/QD - every other day  Imuran/50mg/QD  Myfortic/360mg/BID",Subject was hospitalized at age 31 after going into a serious flare while on vacation. The doctors thought she was in congestive heart failure due to the excessive swelling. She was then diagnosed with SLE and told she had 3 weeks before all her organs would fail. Her prednisone dosage changed from 10mg to 7.5mg on 3/17/2016.,No,No,No
+,Control,Complete,27555,6/23/16,6/24/16,33,Female,African American,200,"5'4""",None,None,"Yes, .2pk/day","Yes, Heavy (6+.week)",No,No,"Have you been diagnosed with any health conditions? [[Yes, No]]",No,"In the last four weeks, have you used any systemic antibiotics or antifungal medications? [[Yes, No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes, No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes, No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,SLE,Complete,AI-5316,6/9/16,6/10/16,45,Female,Hispanic/Latino,130,4'7'',"Lupus (SLE)Rheumatoid ArthritisBreast cancer diagnosed in 2012 - in remission","Plaquenil/200gm/QD  Prednisone/10mg/QD  Cannabidiol/QD","Yes 20 years 0.3 packs per day","Yes Mild (1-2/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,35,Lupus Nephritis,Blood Test,5/2016,Severe,Moderate,"Plaquenil/200gm/QD  Prednisone/10mg/QD","Subject was diagnosed at age 35 with SLE. She is currently in a flare, due to the cold weather. She is experiencing symptoms of pain, swelling in hands and feet, and difficulty walking.",No,No,No
+,SLE,Complete,29753,6/15/16,6/16/16,37,Female,Hispanic/Latino,185,5'2'',"Allergy to Cozaar and ErythromycinHypertension (high blood pressure)Lupus (SLE)NephritisKidney biopsy in 7/2014","Imuran/150mg/QD  Prednisone/5mg/QD  Plaquenil/200mg/BID  Eplerenone/25mg/BID  Birth control/QD  Bumetanide/1mg/QD",No,"Yes Moderate (3-5/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,27,ANA+; Arthritis; Lupus Nephritis; Malar Rash; Photosensitivity; Ulcers,Biopsy; Blood Test,11/2015,Severe,Moderate,"Imuran/150mg/QD  Prednisone/15mg/QD  Plaquenil/200mg/BID  Eplerenone/25mg/BID","Subject was diagnosed with SLE at age 27 after being hospitalized for 6 days. She had been experiencing the same symptoms for 3-4 months, including achiness and a fever. She felt that she had a bad cold that wouldn't go away. She received multiple blood tests and a muscle biopsy before being diagnosed. She also had a kidney biopsy in 2014, which showed class 5 lupus nephritis.",No,No,No
+,Control,Complete,29848,6/27/16,6/28/16,39,Female,Hispanic/Latino,200,"5'5""",None,None,No,"Yes, Mild (1-2x/week)",No,No,"Have you been diagnosed with any health conditions? [[Yes, No]]",No,"In the last four weeks, have you used any systemic antibiotics or antifungal medications? [[Yes, No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes, No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes, No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,SLE,Complete,29586,6/2/16,6/3/16,41,Female,Hispanic/Latino,135,5'4'',"FibromyalgiaLupus (SLE)","Plaquenil/200mg/QD  Naproxen/375mg/PRN  Ibuprofen/800mg/PRN",No,"Yes Mild (1-2/week)","Yes Light (1-2/week)",No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,23,ANA+; Arthritis; Photosensitivity; Ulcers,Blood Test; Clinical Evaluation,4/2016,Moderate,Mild,Plaquenil/200mg/QD,"Subject was diagnosed at age 23 with SLE. During a flare, she experiences symptoms of heart palpitations, fatigue, and pain in her hands, wrists, toes, ankles, and knees.",No,No,No
+,SLE,Complete,31659,6/27/16,6/28/16,39,Female,Hispanic/Latino,165,5'9'',"AsthmaSjogren's Syndrome","Prednisone/20mg/QD Hydroxychloroquine/200mg/QD Azathioprine/250mg/QD Vitamin D/QD Vitamin C/QD Aspirin/81mg/QD Zaldiar/PRN",No,No,No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,28,Arthritis; Photosensitivity; Sjogren's; Thrombocytopenia,Blood Test,02/2016,Moderate-Severe,Mild,"Prednisone/20mg/QD  Hydroxychloroquine/200mg/QD  Azathioprine/250mg/QD",Subject was diagnosed with SLE at age 28. She was experiencing unexplained bruising and hematomas at the time.,No,No,No
+,Control,Complete,32186,6/29/16,6/30/16,40,Female,Hispanic/Latino,131,5'7'',Hay fever,None,No,"Yes, Moderate (3-5/week)","Yes Moderate (3-5/week)",No,"Have you been diagnosed with any health conditions? [[Yes, No]]",No,"In the last four weeks, have you used any systemic antibiotics or antifungal medications? [[Yes, No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes, No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes, No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,SLE,"CompleteStool/Saliva collection reschedule appointment date: 6/29/2016Stool/Saliva collection reschedule delivery date: 6/30/2016",30731,6/16/16,6/17/16,50,Female,Caucasian,130,5'9'',"Allergy to Vinegar, Citric acidEnvironmental allergiesHashimoto's thyroiditisAnemiaAnxiety disorderDepressionCataractMyopiaFibromyalgiaLupus (SLE)HypothyroidismBone degenerate disease Pinched nerve in neck (C4)","Levothyroxine/112mg/QD Losartan/100mg/QD Hydroxychloroquine/400mg/QD Tramadol/200mg/QD Hydrocodone/10mg/PRN Acetaminophen/325mg/PRN","Used to Smoke 4 years 0.5 packs per day","Yes Heavy (6+/week)","Yes Light (1-2/week)",No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,42,ANA+; Anemia; Arthritis; Malar Rash; Photosensitivity; Pleuritis/Pericarditis; Serositis; Thrombocytopenia; Ulcers,Blood Test; Clinical Evaluation,5/2016,Severe,Moderate,Hydroxychloroquine/400mg/QD,Subject was diagnosed at age 42 with SLE. Her mother and daughter have also been diagnosed with SLE. Her last flare was at the beginning of May 2016.,Mother,No,Yes
+,SLE,Complete  ,29556,6/27/16,6/28/16,50,Female,Caucasian,143,5'7'',None,"Plaquenil/200mg/BIDCozaar/100mg/QDCalcium/500mg/QDHeliocare/QD",No,"Yes Heavy (6+/week)","Yes Heavy (6+/week)",No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,38,Photosensitiviy,Biopsy; Blood Test; Clinical Evaluation,2006,Unknown,Mild,Plaquenil/200mg/BID,Subject was diagnosed at age 38 with SLE. She has been taking Plaquenil since being diagnosed. She tried Cytoxan for about 4 months after being diagnosed. She also took Cellcept for about 2-3 years after being diagnosed.,No,No,No
+,Control,Complete  ,32109,6/29/16,6/30/16,54,Female,Caucasian,150,5'10'',None,None,"Yes 35 years 1 pack per day","Yes Heavy (6+/week)",No,No,"Have you been diagnosed with any health conditions? [[Yes, No]]",No,"In the last four weeks, have you used any systemic antibiotics or antifungal medications? [[Yes, No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes, No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes, No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+6,SLE,Complete  ,28504,6/1/16,6/2/16,31,Female,Asian/Pacific Islander,123,5'6'',"Allergy to cats Anemia Myopia Lupus (Discoid) Lupus (SLE) Nephritis","Hydroxyloroquine/100mg/QD (for 2 days) Hydroxyloroquine/200mg/QD (for 1 day) Mycophenolate/500mg/QD Nisavitine/10mg/QD",No,No,No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,21,Anemia; Discoid Lupus; Leukopenia; Lupus Nephritis; Malar Rash; Photosensitivity; Thrombocytopenia,Blood Test; Clinical Evaluation,5/2016,Severe,Moderate,"Hydroxyloroquine/100mg/QD (for 2 days)  Hydroxyloroquine/200mg/QD (for 1 day)  Mycophenolate/500mg/QD","Subject was diagnosed with SLE at age 21. She experiences symptoms of swollen joints, joint pain, and hair loss. She has also been diagnosed with nephritis.",No,No,No
+,SLE,Complete  ,23834,6/2/16,6/3/16,21,Female,Asian/Pacific Islander,126,5'6'',"Allergy to Amoxicillin Lupus (SLE)","Plaquenil/300mg/QD  Vitamin D/700IU/QD",No,"Yes Mild (1-2/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,16,ANA+; Arthritis,Antinuclear Antibody (ANA); Blood Test,3/2011,Mild-Moderate,Mild,Plaquenil/300mg/QD,Subject is currently in a non-flare state. She typically has arthritis like symptoms during the winter season only. Other than that she has not had a flare since March '11 where she experienced severe joint inflammation and fatigue. She was treated with high doses of prednisone which eventually stabilized her.,No,No,No
+,Control,Complete  ,31407,8/4/16,8/5/16,21,Female,Asian/Pacific Islander,125,"5'6""",None,None,No,No,No,No,"Have you been diagnosed with any health conditions? [[Yes, No]]",No,"In the last four weeks, have you used any systemic antibiotics or antifungal medications? [[Yes, No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes, No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes, No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+7,SLE,Complete  ,31166,6/8/16,6/7/16,47,Female,African American,264,5'8'',"Lupus (SLE)Asthma","Albuterol/PRN Folic acid/1mg/QD Klor-Con10/QD Hydroxychloroquine/200mg/BID Prednisone/5mg/QD Methotrexate/10mg/QW",No,"Yes Mild (1-2/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,45,ANA+; Arthritis; Photosensitivity,Blood Test,2014,Severe,Moderate,"Hydroxychloroquine/200mg/BID  Prednisone/5mg/QD  Methotrexate/10mg/QW",Subject was diagnosed at age 45 with SLE. She was experiencing severe swelling and constant pain at the time.,No,No,No
+,SLE,Complete  ,29523,6/6/16,6/7/16,46,Female,African American,225,5'6'',"Allergy to morphine and onionsMyopiaFibromyalgiaLupus (SLE)",Hydroxychloroquine/400mg/QD,No,No,No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,34,ANA+; Arthritis; Photosensitivity,Antinuclear Antibody (ANA); Blood Test,5/2016,Severe,Moderate-Severe,Hydroxychloroquine/400mg/QD,"Subject was diagnosed at age 34 with SLE. She recently experienced a flare at the beginning of May of 2016. She experienced symptoms of joint soreness, stiffness, and fatigue.",No,No,No
+,Control,Complete  ,31943,8/9/16,8/10/16,40,Female,African American,190,"5'6""",None,None,No,No,No,No,"Have you been diagnosed with any health conditions? [[Yes, No]]",No,"In the last four weeks, have you used any systemic antibiotics or antifungal medications? [[Yes, No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes, No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes, No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8,SLE,Complete  ,31716,6/9/16,6/10/16,53,Female,African American,183,5'8'',"Allergy to latexAstigmatismHyperopiaArthritisLupus (Discoid)Lupus (SLE)Scarring on lungs","Vitamin D/50000IU/QD  Multivitamin/QD",No,"Yes Mild (1-2/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,37,ANA+; Anemia; Arthritis; Discoid Lupus; Photosensitivity,Blood Test,7/2015,Mild,N/A,None,Subject was diagnosed with SLE at age 37. She also has discoid lupus. She does not currently take any medications to treat her lupus.,No,No,No
+,SLE,Complete,29745,8/29/16,8/30/16,47,Female,African American,200,5'10'',"ArthritisLupus (SLE)Peripheral NeuropathyPartial hysterectomy in 2014","Gabapentin/600mg/QD IVIG/35mg/QM",No,No,No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,40,Arthritis,Blood Test,2/2014,Severe,Mild-Moderate,"Gabapentin/600mg/QD IVIG/35mg/QM",Subject was diagnosed with SLE at age 40. She was also diagnosed with arthritis. She treats her symptoms with gabapentin and IVIG.,No,No,No
+,Control,Complete  ,32025,6/30/16,7/1/16,57,Female,African American,155,5'5'',None,None,No,"Yes Heavy (6+/week)",No,No,"Have you been diagnosed with any health conditions? [[Yes, No]]",No,"In the last four weeks, have you used any systemic antibiotics or antifungal medications? [[Yes, No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes, No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes, No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+9,SLE,"CompleteStool/Saliva collection reschedule appointment date: 6/16/2016Stool/Saliva collection reschedule delivery date: 6/16/2016",30879,6/8/16,6/9/16,34,Female,African American,192,5'6'',"Allergy to sulfa drugsRaynaud'sLupus (SLE)Rheumatoid ArthritisSjogren's SyndromeCOPDHypothyroidism","Prednisone/5mg/QD Plaquenil/200mg/BID Xeljanz/5mg/BID Folic Acid/1mg/QD Levothyroxine/50mcg/QD",No,"Yes Moderate (3-5/week)","Yes Moderate (3-5/week)","Yes Marijuana smoker More than once a week","Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,30,Arthritis; Malar Rash; Photosensitivity; Raynaud's; Sjogren's,Blood Test,5/2016,Severe,Moderate-Severe,"Prednisone/5mg/QD  Plaquenil/200mg/BID  Xeljanz/5mg/BID  Methotrexate/10mg/QW","Subject was diagnosed at age 30 with SLE. She is currently experiencing a flare. Her main symptoms include swelling in her knees and pain. Typically, during a flare, she experiences severe pain, swollen joints, and she sometimes develops hives on her legs.",No,No,No
+,SLE,Complete,32619,9/12/16,9/13/16,30,Female,African American,198,"5'7""","Raynaud'sHypertensionNephritis","Plaquenil/400mg/BIDGabapentin/900mg/QDVitamin D/50000IU/QWLisinopril/10mg/QDIron/QDOmeprazole/40mg/QD","Used to Smoke 8 years, 0.5 pk/day","Yes Heavy (6+/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]","Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]","In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,25,ANA+; Anemia; Arthritis; Discoid Lupus; Photosensitivity; Lupus Nephritis; Malar Rash; Pleuritis/Pericarditis; Raynaud's; Serositis,Biopsy; Blood Test; Clinical Evaluation,Current,Severe,Severe,Plaquenil/400mg/BID,"Subject was diagnosed with SLE at age 25. She was diagnosed via blood test, clinical evaluation, and a skin biopsy. She recently had a kidney biopsy in May of 2016. She will be starting 60mg per day of Prednisone today.",No,No,No
+,Control,Complete  ,31091,6/30/16,7/1/16,37,Female,African American,317,5'9'',None,None,No,"Yes Moderate (3-5/week)","Yes Light (1-2/week)",No,"Have you been diagnosed with any health conditions? [[Yes, No]]",No,"In the last four weeks, have you used any systemic antibiotics or antifungal medications? [[Yes, No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes, No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes, No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+10,SLE,Complete  ,24010,6/15/16,6/16/16,48,Female,African American,200,5'1'',"FibromyalgiaLupus (SLE)Rheumatoid arthritis","Plaquenil/200mg/BID Vitamin D/2000IU/QD Vitamin D/50000IU/QM Vicodin/5-325mg/PRN",No,"Yes Heavy (6+/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,41,Arthritis; Malar Rash; Photosensitivity; Ulcers,Blood Test,3/2016,Severe,Moderate,Plaquenil/200mg/BID,Subject was diagnosed with SLE at age 41 after experiencing flu-like symptoms.,No,No,No
+,SLE,Complete  ,29527,8/4/16,8/5/16,51,Female,African American,208,5'9'',Lupus (SLE),Multivitamin/QD,"Used to Smoke 10 years 0.1 packs per day","Yes Mild (1-2/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,29,ANA+; Anemia; Arthritis; Malar Rash; Pleuritis/Pericarditis; Serositis,Blood Test; Clinical Evaluation,3/2015,Mild,N/A,None,"Subject was diagnosed at age 29 with SLE. Her main symptoms are joint pain. When she has a flare, she gets pleuritis and pericarditis. She was taking Plaquenil, but stopped about 2 years ago because her physician believed that her symptoms would be controlled without it. Her daughter (age 30) has been diagnosed with SLE as well.",No,No,Yes
+,Control,Complete  ,29396,8/4/16,8/5/16,55,Female,African American,193,"5'7""",None,None,No,No,No,No,"Have you been diagnosed with any health conditions? [[Yes, No]]",No,"In the last four weeks, have you used any systemic antibiotics or antifungal medications? [[Yes, No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes, No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes, No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+11,SLE,Complete  ,31647,8/1/16,8/2/16,45,Female,Caucasian,168,5'4'',"Raynaud's, Anemia, Sjogren's","Plaquenil/400mg/QD Prilosec/QD Iron/QD",No,"Yes Heavy (6+/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,29,ANA+; Anemia; Malar Rash; Raynaud's; Sjogren's,Blood Test; Clinical Evaluation,11/2014,Severe,Mild,Plaquenil/400mg/QD,"Subject was diagnosed with SLE at age 29 after experiencing Raynaud's symptoms, fevers, and mild joint pain. She was hospitalized in 2011 after going off of her Plaquenil and was on Benlysta. She believes the Plaquenil works well at keeping her symptoms under control.",No,No,No
+,SLE,Complete  ,25149,6/13/16,6/14/16,37,Female,Caucasian,185,5'6'',"Allergy to penicillinLupus (SLE)",Plaquenil/400mg/QD,"Used to smoke 10 years 1.0 packs per day","Yes Mild (1-2/week)","Yes Light (1-2/week)",No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,22,ANA+,Blood Test,12/2014,Severe,Mild,Plaquenil/400mg/QD,"Subject was diagnosed with SLE at age 22. She doesn't experience any symptoms on a daily basis, but if the weather is rainy, her joints get sore.",No,No,No
+,Control,Complete  ,22683,7/25/16,7/26/16,37,Female,Caucasian,210,6'3'',Myopia,None,No,"YesHeavy (1-2/week)","YesModerate (3-5/week)",No,"Have you been diagnosed with any health conditions? [[Yes, No]]",No,"In the last four weeks, have you used any systemic antibiotics or antifungal medications? [[Yes, No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes, No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes, No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+12,SLE,Complete  ,20844,6/30/16,7/1/16,39,Female,African American,145,5'6'',"Raynaud'sLupus (SLE) Sjogren's SyndromeNephritisKidney biopsy in 8/2013","Medrol/8 to 16mg as needed/QD  Imuran/150mg/QD",No,"Yes Moderate (3-5/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,35,ANA+; Leukopenia; Lupus Nephritis; Pleuritis/Pericarditis; Raynaud's; Serositis; Sjogren's,Antinuclear Antibody (ANA),8/2013,N/A,Mild,"Medrol/8 to 16mg as needed/QD  Imuran/150mg/QD",Subject was diagnosed at age 35 with SLE. She had a kidney biopsy in August of 2013 and was diagnosed with class II nephritis. She has very mild symptoms at the moment. She has been taking Imuran since October of 2014.,No,No,No
+,SLE,Complete  ,27796,7/13/16,7/14/16,36,Female,African American,126,"5'8""","DepressionAsthmaAllergicSeasonalPenicillin","Hydroxychloroquine/200mg/BID Prednisone/10mg/BID","Yes, 0.1pk/day","Yes Moderate (3-5/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,30,Malar Rash; Photosensativity,ANA; Blood Test,06/2016,Severe,Mild,"Hydroxychloroquine/200mg/BID  Prednisone/10mg/BID",Subject was diagnosed with SLE at age 30. She experiences swelling and pain in her joints constantly.,No,No,No
+,Control,Complete,31484,8/1/16,8/2/16,36,Female,African American,155,5'7'',None,None,No,No,"YesLight (1-2/week)",No,"Have you been diagnosed with any health conditions? [[Yes, No]]",No,"In the last four weeks, have you used any systemic antibiotics or antifungal medications? [[Yes, No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes, No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes, No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+13,SLE,Complete  ,31369,6/6/16,6/7/16,23,Female,Hispanic/Latino,160,5'4'',"Lupus (SLE)Nephritis","Hydroxychloroquine/200mg/QD  Prednisone/9mg/QD  Azathioprine/150mg/QD  Lisinopril/QD",No,"Yes Mild (1-2/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,21,Arthritis; Lupus Nephritis; Photosensitivity,Blood Test,1/2016,Severe,Moderate,"Hydroxychloroquine/200mg/QD  Prednisone/9mg/QD  Azathioprine/150mg/QD","Subject was diagnosed with SLE at age 21. She experiences symptoms of swollen joints in response to cold weather, migraines, sensitivity to light and sound, irritability, and fatigue.",No,No,No
+,SLE,Complete  ,29780,7/6/16,7/7/16,27,Female,Hispanic/Latino,170,"5'4""","Allergies to Azithromycin and AmoxicillinAnxietyLupus (Discoid)Lupus (SLE)","Plaquenil/200mg/BID Meloxicam/0.5mg/QD Methotrexate/10mg/QW Zofran/4mg/PRN Tacrolimus ointment/BID Clobetasol cream/BID Desonide/BID Fluocinonide/ cream/BID Folic acid/1mg/QD Hydrocortisone cream/BID",No,"Yes Heavy (6+/week)",No,Yes,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,25,"ANA+, Arthritis, Discoid Lupus, Leukopenia, Photosensativity, Thrombocytopenia",Biopsy; Blood Test; Clinical Evaluation,02/2016,Severe,Mild-Moderate,"Plaquenil/200mg/BID Meloxicam/0.5mg/QD Methotrexate/10mg/QW Tacrolimus ointment/BID  Clobetasol cream/BID  Desonide/BID  Fluocinonide cream/BID  Hydrocortisone cream/BID","Subject was diagnosed with SLE at age 25. She was originally diagnosed with discoid lupus via skin biopsy. After more blood tests, she was diagnosed with SLE. She has active discoid symptoms currently, including lesions on her arms and head. She hasn't had a severe flare since February of 2016.",No,No,No
+,Control,Complete  ,26917,8/22/16,8/23/16,32,Female,Hispanic/Latino,170,5'4'',None,None,"Used to Smoke1 year0.1 packs per day","YesModerate (3-5/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",No,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,SLE,Complete  ,31761,6/23/16,6/24/16,52,Female,Hispanic/Latino,166,5'7'',"Raynaud'sHypertension (high blood pressure)Anxiety disorderFibromyalgiaLupus (SLE)Hypothyroidism","Levothyroxine/100mcg/QD Azathioprine/50mg/QD Hydroxychloroquine/200mg/QD Amlodipine/5mg/QD Aspirin/324mg/QD Gabapentin/300mg or 400mg/QD Citalopram/20mg/QD Furosemide/40mg/QD Metaxalone/800mg/BID","Yes20 years0.3 packs per day","Yes Heavy (6+/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,49,ANA+; Malar Rash; Photosensitivity; Raynaud's; Ulcers,Blood Test; Clinical Evaluation,6/2016,N/A,Moderate,"Azathioprine/50mg/QD Hydroxychloroquine/200mg/QD","Subject was diagnosed with SLE at age 49. She has a sister who was also diagnosed with SLE. Before she was diagnosed, she was experiencing symptoms of fatigue, muscle spasms, and losing hair.",No,Yes,No
+,SLE,Complete  ,32573,7/14/16,7/15/16,55,Female,Hispanic/Latino,170,"5'4""","Allergy to PenicillinLupus (SLE)",Plaquenil/200mg/QD,"Used to Smoke12 years1.0 pack per day","YesHeavy (6+/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,40,Arthritis; Ulcers,Blood Test; Clinical Evaluation,05/2016,Severe,Moderate-Severe,Plaquenil/200mg/QD,"Subject was diagnosed at age 40 with SLE. Prior to being diagnosed she was experiencing joint swelling and the ""pins and needles"" feeling. She sometimes experiences rashes under her arms, as well as ulcers.",No,No,No
+,Control,Complete  ,31202,7/28/16,7/29/16,48,Female,Hispanic/Latino,145,5'1'',None,None,"Yes34 years1.0 packs per day","YesHeavy (6+/week)","YesLight (1-2/week)",No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",No,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+15,SLE,Complete  ,10832,6/22/16,6/23/16,58,Female,Caucasian,190,5'11'',"Allergy to penicillin and sulfa drugsRaynaud'sHypertension (high blood pressure)Lupus (SLE)OsteoporosisNephritisBrain lesion in 2001 - underwent a year of chemotheorapy and high dosage (90mg) of prednisone Skin cancer - removed 8 years ago","Procardia/60mg/QD  Zoloft/100mg/QD  Meloxicam/15mg/QD  Lisinopril/20mg/QD  Atenolol/50mg/QD  Biotin/5000mcg/QD  VitaminD/2000mg/QD  Benlysta/924/QM  Methotrexate injections/0.4mL/QW  Leucovorin/10mg/QW","Used to Smoke 13 years 1 pack per day","Yes Heavy (6+/week)","Yes Heavy (6+/week)",No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,25,ANA+; Arthritis; Raynaud's,Antinuclear Antibody (ANA); Blood Test,11/2015,Severe,Moderate,"Benlysta/924/QM  Methotrexate injections/0.4mL/QW","Subject was diagnosed at age 25 with SLE. During a flare, she experiences unusual fatigue, body aches, and abdominal discomfort.",No,No,No
+,SLE,Complete  ,26891,7/13/16,7/14/16,52,Female,Caucasian,155,"5'4""","Allergies: Pollen, Dust, Compazine, CatsEndometriosisAnemiaHypertensionADDAnxietyDepressionFibromyalgiaMigrainsHypothyroidism","Adderall/5mg/PRN Dulcolax/5mg/TID Duloxetine/60mg/BID Plaquenil/200mg/BID Ibuprofen/800mg/TID Levothyroxine/150mcg/QD Cytomel/5mcg/QD Lisinopril/5mg/QD Remeron/45mg/QD Zofran/4mg/PRN Oxycontin/60mg/TID Oxycontin/40mg/PRN Vivelle-Dot/0.1mg/TIW Caffeine tablet/200mg/PRN",No,"Yes Heavy (6+/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,19,ANA+; Anemia; Sjogren's,ANA; Blood Test; Clinical Evaluation,11/2015,Moderate-Severe,Moderate,"Plaquenil/200mg/BID  Ibuprofen/800mg/TID Oxycontin/60mg/TID  Oxycontin/40mg/PRN","Initial dx of Lupus at age 35 following blood test. Primary symptoms are fever and body aches. Donor also experiences low grade fevers and slight rashes from time to time. Symptoms currently somewhat controlled with current tx.  She had a mild flare in November, which she first thought to be Lyme disease. She was experiencing symptoms of achy joints and body, as well as fatigue.",No,No,No
+,Control,Complete  ,29777,7/27/16,7/28/16,48,Female,Caucasian,145,5'3'',None,None,"Used to Smoke8 years0.5 pack per day","YesMild (1-2/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",No,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,SLE,Complete  ,31475,6/22/16,6/23/16,39,Female,Asian/Pacific Islander,196,5'5'',"MyopiaLupus (SLE)NephritisKidney biopsy in 2006",Hydroxychloroquine/200mg/QD,No,No,No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,29,Lupus Nephritis; Photosensitivity,Biopsy,2006,Unknown,Mild,Hydroxychloroquine/200mg/QD,"Subject was diagnosed with SLE at age 29. She was also diagnosed with nephritis around the same time, via kidney biopsy. She was on Cellcept about 10 years ago. She has been on hydroxychloroquine for about 4 years. She recently stopped taking Prednisone in January of 2016. Her last flare was about 10 years ago.",No,No,No
+,SLE,Complete,33371,9/7/16,9/8/16,32,Female,Asian/Pacific Islander,165,"5'2""","Allergic to: Bactrim, Keflex; Anxiety; Depression; Cataracts","Plaquenil/200mg/BIDCellcept/1000mg/BIDPrednisone/7.5mg/QDCelexa/10mg/QDAtivan/0.5mg/PRNTylenol #4/600mg-30mg/QIDOmega 3/QDVitamin B12/QDMultivitamin/QDBiotin/QDVitamin D/QDTurmeric/QDGinger/QD","Used to smoke - 10 years, 0.3pk/day","Yes, Heavy (6+/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,18,Arthritis,Clinical Evaluation,Current,Severe,Mild,"Plaquenil/200mg/BID Cellcept/1000mg/BID Prednisone/7.5mg/QD","Subject was diagnosed at age 18 in January of 2002 with SLE. However, she was experiencing symptoms since age 15. These symptoms included things like achy joints and extreme fatigue. She was hospitalized at age 18 with pneumonia and was kept overnight. During this stay, she had a stroke, and after extensive testing, was diagnosed with SLE.",No,No,No
+,Control,Complete,12389,10/13/16,10/14/16,33,Female,Asian/Pacific Islander,205,5'7'',None,None,No,No,No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",No,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,SLE,Complete,31904,7/27/16,7/28/16,47,Female,Hispanic/Latino,115,5'6'',"HyperopiaLupus (SLE)Nephritis",None,No,"YesModerate (3-5/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,41,None,Other,2013,Mild,N/A,None,Subject was diagnosed at age 41 with SLE. She was seen for an enlarged liver and underwent an ultrasound and MRI. She was told she only had one kidney and it was extremely enlarged. She was also retaining a lot of water weight and had high blood pressure and thyroid issues. She hasn't taken any medications for over a year.,No,No,No
+,SLE,"CompleteStool and Saliva to be shipped on 11/16/16",33962,11/9/16,11/8/16,40,Female,Hispanic/Latino,140,5'4'',"Allergy to Ciprofloxacin and Sulfa drugsSjogren's SyndromeNephritis","Labetalol/300mg/QD Methyldopa/250mg/QD Lisinopril/20mg/QD Prednisone/5mg/QD Plaquenil/200mg/QD",No,"YesHeavy (6+/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,13,ANA+; Arthritis; Lupus Nephritis; Sjogren's; Ulcers,Blood Test,2012,Severe,Moderate,"Prednisone/5mg/QD Plaquenil/200mg/QD",Subject was diagnosed with SLE at age 13. She experiences symptoms of high fevers and extreme joint pain. She has been on a study dosage of plaquenil and prednisone since 2013.,No,No,No
+,Control,Scheduled,26639,"11/21/2016Saliva re-collection scheduled for 11/28/2016",11/22/16,44,Female,Hispanic/Latino,125,5'1'',Allergy to Tetracycline,None,No,No,No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",No,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+18,SLE,Complete  ,AI-9328,6/8/16,6/9/16,54,Female,Hispanic/Latino,180,5'0'',"Anxiety disorderLupus (SLE)Sjogren's SyndromeNephritis","Hydoroxychloroquine/200mg/BID  Lisinopril/20mg/QD  Prednisone/5mg/QD  Cellcept/500mg/BID  Vitamin D/2000IU/BID",No,"Yes Mild (1-2/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,49,ANA+; Lupus Nephritis,Antinuclear Antibody (ANA); Biopsy; Blood Test,5/2016,N/A,Moderate,"Hydoroxychloroquine/200mg/BID  Prednisone/5mg/QD  Cellcept/500mg/BID","Subject was diagnosed at age 49 with SLE. She has a paternal grandmother (deceased) who was also diagnosed with SLE. Her main symptoms include significant fatigue and dry mouth. She is currently experiencing a mild flare with symptoms of fatigue and lower back pain. She has been taking hydroxychloroquine, cellcept, and prednisone for about 5 years, since she was diagnosed.",No,No,No
+,SLE,Complete,29515,9/7/16,9/8/16,46,Female,Hispanic/Latino,251,5'5'',"Hypertension (high blood pressure)AstigmatisimHistory of stroke in 2001","Coumadin/5mg/QIW Coumadin/10mg/TIW Plaquenil/300mg/QD Atenolol/25mg/QD Imuran/50mg/BID Prednisone/5mg/QD Omeprazole/QD",No,"Yes Moderate (3-5/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,22,Ulcers,Blood Test,Unknown,Severe,Mild,"Plaquenil/300mg/QD Imuran/50mg/BID Prednisone/5mg/QD","Subject was diagnosed at age 22 with SLE. She also has a daughter that has been diagnosed with lupus. She experiences pain in her shoulders daily. After she began taking steroids, she stopped feeling stiffness and pain her hands and shoulders. She was unable to move and was constantly in pain prior to taking prednisone.",No,No,Yes
+,Control,Complete,11367,10/20/16,10/21/16,54,Female,Hispanic/Latino,212,5'5'',"Thyroid was removed in 2005 Recurring shingles","Synthroid/150mcg/QDValacyclovir/500mg/QD",No,"YesMild (1-2/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",No,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,SLE,Complete  ,AI-9042,6/2/16,6/3/16,24,Female,Caucasian,105,5'4'',"Raynaud's Lupus (SLE)","Plaquenil/300mg/QD  Adderall/PRN",No,"Yes Heavy (6+/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,19,ANA+; Arthritis; Pleuritis/Pericarditis; Raynaud's,Blood Test,5/2016,Moderate-Severe,Moderate,Plaquenil/300mg/QD,"Subject was diagnosed with SLE at 19. She currently experiences symptoms of alopecia, joint pain, and fatigue. She also experiences some pain in her heart when she is nervous or stressed. In addition, her Raynaud's also flares up when she is nervous or stressed.   She recently had a flare in May of 2016, during which she experienced severe fatigue for a few days straight.",No,No,No
+,SLE,Scheduled,33326,2/9/17,2/10/17,31,Female,Caucasian,125,5'5'',"Raynaud'sRheumatoid Arthritis","Prednisone/10mg/QD Cyclobenzaprine/PRN Norco/PRN Vitamin D/50000IU/QW Valerian/QD CBD pill/QAD",No,"YesMild (1-2/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,17,ANA+; Arthritis,Blood Test; Clinical Evaluation,12/2016,Moderate,Mild-Moderate,Prednisone/10mg/QD,Subject was diagnosed with SLE at age 17. She experiences arthritis symptoms and is currently treating her lupus with prednisone.,No,No,No
+,Control,Scheduled,89552,2/6/17,2/7/17,21,Female,Caucasian,112,5'6'',None,Microgestin/QD,No,"YesModerate (3-5/week)","YesLight (1-2/week)",No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",No,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20,SLE,Complete,27321,7/20/16,7/21/16,45,Female,Asian/Pacific Islander,140,5'2'',"Allergy to penicillin, omeprazole, IV contrast dyeSeasonal allergiesHypertension (high blood pressure)Lupus (SLE)Central Nervous System (CNS) LymphomaKidney Transplant 11/13; MRSA 11/07; CNS Lymphoma 11/07 Patient had TTP when she was 5. Hyperlipidemia Hemiparesis RetinopathyHx of Lymphoma, Non-Hodgkin's Atherosclerosis Aorta Cerebral Venous Sinus Thrombosis","Tacrolimus/1mg/TID  Evorolimus/1mg/TID  Prednisone/5mg/QD  Metoprolol/100mg/BID  Keppra/250mg/QD  Amlodipine/10mg/QD  Cranberry soft gels/500mg/QD  Vitamin B complex/QD  Vitamin D3/QD  Omega 3 + CoQ-10/QD  Red yeast rice/QD",No,"Yes Moderate (3-5/week)","Yes Light (1-2/week)",No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,21,ANA+; Lupus Nephritis; Retinal Issues; Seizures,Clinical Evaluation,1996,N/A,Mild,None,"Subject was diagnosed with SLE at age 21. During a flare, she experiences symptoms of skin pain, flu-like symptoms, and lethargy.",No,No,No
+,SLE,Incomplete,32994,9/29/16,9/30/16,46,Female,Asian/Pacific Islander,129,4'11'',"Anxiety disorderDepressionArthritisLupus (SLE)NephritisLegally blind Skin cancer diagnosed and treated in 2014","Prednisone/3mg/QD Folic acid/800mg/QD Tacrolimus/1mg/BID Metoprolol succinate ER/100mg/QD Losartan/50mg/QD Trazodone/50mg/QD Citalopram/20mg/QD Atorvastatin/20mg/QD Pantoprazole/20mg/QD Sirolimus/1mg/QAD Sirolimus/2mg/QAD Wens multivitamin/QD",No,"YesHeavy (6+/week)","YesLight (1-2/week)",No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,10,Anemia; Arthritis; Leukopenia; Lupus Nephritis; Photosensitivity; Pleuritis/Pericarditis; Thrombocytopenia; Ulcers,Blood Test; Clinical Evaluation,1996,Severe,Mild,Prednisone/3mg/QD,"Subject was diagnosed with SLE at age 10 after experiencing symptoms of headaches, extreme fatigue, nausea, a malar rash, bruising, and complete loss of appetite.",No,No,No
+,Control,Reschedule,22787,,,46,Female,Asian/Pacific Islander,150,5'0'',None,None,No,No,No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",No,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20 (replacement),SLE,Complete,33833,11/9/16,11/10/16,28,Female,Caucasian,237,5'5'',"Hypertension (high blood pressure)Bipolar disorder","Plaquenil/200mg/QD Birth control/QD Propranolol/60mg/QD Fiorecet/50-325-40mg/PRN","Used to Smoke9 years1.0 packs per day","YesHeavy (6+/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,25,ANA+; Arthritis; Malar Rash; Photosensitivity,Blood Test,7/2016,Mild,Mild,Plaquenil/200mg/QD,Subject was diagnosed at age 25 with SLE. She gets lupus flares when she is stressed. She has mild flare-ups about once a month.,No,No,No
+,SLE,Complete,29809,12/21/16,12/22/16,38,Female,Caucasian,260,5'10'',"Gullain-Barre syndromeTransverse myelitis","Plaquenil/200mg/QD IVIG/400mL/QM","Used to Smoke15 years1.0 packs per day","YesHeavy (6+/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,36, ANA+; Photosensitivity,Antinuclear Antibody (ANA); Blood Test; Clinical Evaluation,Current,Severe,Moderate,"Plaquenil/200mg/QD IVIG/400mL/QM",Subject was diagnosed with SLE at age 36. She is currently treated with Plaquenil and monthly IVIG infusions. Her mother was also recently diagnosed with SLE.,Mother,No,No
+,Control,Complete,11600,1/11/17,1/12/17,37,Female,Caucasian,195,5'7'',Allergy to sulfa drugs,Multivitamin/QD,No,"YesModerate (3-5/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",No,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+21,SLE,Complete,28791,7/25/16,7/26/16,27,Female,Caucasian,115,5'1'',"MyopiaLupus (SLE)Nephritis","Azathioprine/50mg/QD  Plaquenil/200mg/QD  Amitriptyline/25mg/QD  Prednisone/5mg/QD",No,"Yes Heavy (6+/week)","Yes Light (1-2/week)",No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,19,Lupus Nephritis; Photosensitivity,Blood Test; Clinical Evaluation,11/2008,Moderate-Severe,Mild,"Cellcept/250mg/QD  Plaquenil/200mg/QD  Prednisone/5mg/QD","Subject was diagnosed at age 19 with SLE. She does not currently experience any symptoms.  Great grandfather (maternal) was also diagnosed with SLE.",No,No,No
+,SLE,Complete,29404,7/27/16,7/28/16,34,Female,Caucasian,121,5'2'',Lupus (SLE),"Prednisone/10mg/QD Plaquenil/200mg/BID Phospha 250 Neutral Tablets/3 tablets/BID Calcium/600mg/BID Vitamin D/2000IU/QD Multivitamin/QD Imitrex/25mg/PRN Metronidazole/0.75%/PRN Alclomadizone/0.05%/PRN Desonide/0.05%/PRN Clobetasol/0.05%/PRN Clobetasol propionate/0.05%/PRN","Used to Smoke15 years0.8 packs per day","YesModerate (3-5/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,14,ANA+; Arthritis; Malar Rash; Photosensativity; Seizures; Ulcers,Blood Test; Clinical Evaluation,8/2015,Severe,Mild,"Prednisone/10mg/QD Plaquenil/200mg/BID","Subject was diagnosed at age 14 with SLE. Her symptoms have evolved to more severe cutaneous symptoms involving her skin and hair. She has a rash on her cheek that is more or less permanent, and she has been prescribed many different creams to treat her skin-related symptoms. She also experiences migraines.",No,No,No
+,Control,Complete,28535,8/25/16,8/26/16,36,Female,Caucasian,138,5'6'',None,None,No,"YesMild (1-2/week)","YesLight (1-2/week)",No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",No,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+22,SLE,Complete  ,29934,7/18/16,7/19/16,25,Female,Caucasian,180,"5'8""",Allergic to Penicillin; Anemia; Blood Clots; Myopia; Migraine Headaches,"Prednisone/12mg/QD Plaquenil/200mg/QD Imuran/75mg/QD Naproxen/1000mg/QD Baby Aspirin/81mg/QD Magnesium/500mg/QD Vitamin B2/400mg/QD Birth control pill/QD Orencia/QW",No,"Yes Moderate (3-5/week)","Yes Light (1-2/week)",No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]","Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]","In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,17,ANA+; Anemia,ANA; Blood Test; Clinical Evaluation,2013,Severe,Mild,"Prednisone/12mg/QD  Plaquenil/200mg/QD  Imuran/75mg/QD  Orencia/QW Naproxen/1000mg/QD",Subject was diagnosed with SLE at age 17. Her mother has also been diagnosed with SLE.,Yes,No,No
+,SLE,Complete  ,27111,7/25/16,7/26/16,31,Female,Caucasian,165,5'6'',"Lupus (Discoid)Lupus (SLE)",None,"Used to Smoke16 years0.1 packs per day","YesHeavy (6+/week)","Yes Light (1-2/week)",No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,17,ANA+; Arthritis; Discoid Lupus,Antinuclear Antibody (ANA); Blood Test; Clinical Evaluation,7/2016,Mild,N/A,None,"Subject had a series of chronic idiopathic urticaria in March of 2014 that lasted 6 months long. She believes that it is associated with the SLE. She was given high doses of Prednisone to calm down the hives. She typically does not have flares other than mild discoid rashes. She manages the symptoms through getting enough sleep, water, and exercise.",No,No,No
+,Control,Complete  ,27403,8/3/16,8/4/16,22,Female,Caucasian,170,5'6'',None,None,No,"YesHeavy (6+/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",No,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,SLE,Complete  ,21911,6/27/16,6/28/16,33,Female,Caucasian/African American,300,"5'8""",Blood clots,"Coumadin/12.5mg/QD Hydroxychloroquine/400mg/QD Vitamin D/QD Metformin/500mg/QD","Used to Smoke, 13 years, 0.5 pk/day","Yes Heavy (6+/week)","Yes Light (1-2/week)",No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,24,Arthritis; Malar Rash; Photosensitivity,Blood Test,11/2007,Severe,Moderate,Hydroxychloroquine/400mg/QD,"Subject was diagnosed at age 24. She had a very severe flare in 2007. She was unable to walk. Ever since she has started her medications, she hasn't had a flare as severe as her first. However, she does experiences tenderness on the bottom of her feet, aching in her knees, and headaches. She also experiences joint pain daily.",No,No,No
+,SLE,Complete,10852,11/2/16,11/3/16,37,Female,African American,240,5'1'',"Allergy to Plaquenil and ImuranHigh cholesterol (hypercholesterolemia)Nephritis","Prednisone/10mg/QD Enalapril/20ml/BID Lipitor/20mg/QD Cellcept/1000mg/BID Methotrexate/15mg/QW Folic acid/1mg/QD Tylenol with codeine #3/PRN Flexeril/10mg/PRN",No,"YesHeavy (6+/week) ",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,24,ANA+; Arthritis; Lupus Nephritis; Photosensativity,Blood Test,Current,Severe,Mild,"Prednisone/10mg/QD Cellcept/1000mg/BID","Subject was diagnosed with SLE at age 24 or 25. She has 2 maternal cousins who have also been diagnosed with lupus. She is currently experiencing a flare, which includes symptoms of fatigue and joint pain.",No,No,No
+,Control,Complete,27135,11/30/16,12/1/16,28,Female,African American,210,5'8'',None,None,No,"YesModerate (3-5/week)","YesLight (1-2/week)","YesMore than once a week","Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",No,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,SLE,"CompleteStool and Saliva samples provided on 6/30 ",11287,7/7/16,7/8/16,37,Female,African American,181,5'7'',"Raynaud's, Hypertension; Depression; Sjogren's; Nephritis; Hypothyroidism","Prednisone/10mg/QD Keppra/500mg/BID Metoprolol/50mg/BID Nifedipine/60mg/QD Sensipar/30mg/QD Simvastatin/10mg/QD Synthroid/75mcg/QD Aspirin/81mg/QD Hydrochloroquine/200mg/BID",No,No,No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,17,"Anemia; Arthritis; Lupus Nephritis; Photosensitivity; Pleuritis/Pericarditis; Raynaud's, Seizures, Serositis; Sjogren's",Biopsy; Blood Test; Clinical Evaluation,01/2016,Severe,Mild-Moderate,"Prednisone/10mg/QD Hydrochloroquine/200mg/BID",Subject was diagnosed with SLE at age 17. She had a kidney biopsy in 2011 and was diagnosed with lupus nephritis. She tapered her prednisone dosage down to 10mg about 5 months ago. Subject also has a maternal uncle who has been diagnosed with SLE.,No,No,No
+,SLE,Complete,33276,9/7/16,9/8/16,38,Female,African American,169,"5'4""",Allergic to: Penicillin; Raynaud's; Anemia,Prednisone/10mg/QD,No,"YesMild (1-2/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,31,ANA+; Anemia; Leukopenia; Photosensativity; Raynaud's ,Blood Test,Current,Moderate,Mild-Moderate,Prednisone/10mg/QD,"Subject was diagnosed at age 37 with SLE. During a flare, she experiences extreme fatigue, joint pain, and swelling in hands and feet.",No,No,No
+,Control,Complete,30012,10/12/16,10/13/16,32,Female,African American,160,5'4'',None,None,No,"YesMild (1-2/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",No,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+25,SLE,Complete,21944,7/27/16,7/28/16,62,Female,African American,181,5'2'',"Allergy to penicillinAnxiety disorderArthritisLupus (SLE)Sleep apneaNarcolepsyDiagnosed with skin cancer in 11/2015 - treated Cataplexy Seizures Osteopenia Gout Thalassemia","Methylphenidate/18mg/QD Plaquenil/100mg/QD Zoloft/100mg/QD","Used to Smoke20 years1.0 packs per day","YesHeavy (6+/week)",No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,34,ANA+; Arthritis; Discoid Lupus; Malar Rash,Antinuclear Antibody (ANA); Blood Test; Clinical Evaluation,4/2016,Moderate,Moderate,Plaquenil/100mg/QD,Subject was diagnosed with SLE at age 34. She is currently treating her lupus with Plaquenil.,No,No,No
+,SLE,Complete,30045,9/29/16,9/30/16,62,Female,African American,221,5'4'',"Hypertension (high blood pressure)ArthritisFibromyalgiaLupus (SLE)NephritisKnee replacement on 6/15/2015","Prednisone/alternating 5mg and 4mg/QD Hydroxychloroquine/200mg/BID Hydrochlorothiazide/QD Lisinopril/QD Isuprel/QD Loratadine/QD Centrum silver women/QD Fish oil/QD Biotin/QD GasX/QD Gabapentin/QD Tramadol/PRN",No,No,No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",Yes,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,55,Arthritis; Lupus Nephritis; Photosensitivity; Retinal Issues; Ulcers,Blood Test,6/2016,Severe,Mild,"Prednisone/alternating 5mg and 4mg/QD Hydroxychloroquine/200mg/BID",Subject was diagnosed with SLE at age 55. She experiences mild pain in her joints on a daily basis.,No,No,No
+,Control,Complete,22756,10/10/16,10/11/16,64,Female,African American,262,5'7'',None,None,"Used to Smoke13 years0.2 packs per day",No,No,No,"Have you been diagnosed with systemic lupus erythematosus (SLE)? [[Yes,No]]",No,"In the last 4 weeks, have you taken any antibiotic or antifungal medications? [[Yes,No]]",No,"Have you had any significant GI surgery or GI conditions? [[Yes,No]]",No,"In previous blood donations, have you experienced adverse events such as fainting, unusual bleeding, or bruising? [[Yes, No]]",No,"Have you used any probiotic agents within the last week? [[Yes,No]]",No,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

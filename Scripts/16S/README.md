@@ -151,8 +151,8 @@ Works with GreenGenes 13_5 database (Picrust requirement).
 The last two steps could be run in parallel, while other are to be executed in a linear manner.
 ## V. References
 
-[QIIME software](http://qiime.org/index.html)
-[PICRUSt software](http://picrust.github.io/picrust/)
-[USEARCH](http://drive5.com/usearch/)
-[STAMP Analysis Software](http://kiwi.cs.dal.ca/Software/STAMP)
-[Microbiome Helper Virtual Machine](https://github.com/mlangill/microbiome_helper/wiki)
+- [QIIME software](http://qiime.org/index.html)
+- [PICRUSt software](http://picrust.github.io/picrust/)
+- [USEARCH](http://drive5.com/usearch/)
+- [STAMP Analysis Software](http://kiwi.cs.dal.ca/Software/STAMP)
+- [Microbiome Helper Virtual Machine](https://github.com/mlangill/microbiome_helper/wiki)

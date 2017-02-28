@@ -1,0 +1,216 @@
+#!/bin/bash
+#$ -V
+#$ -cwd
+#$ -o "logs/Metagenomics_16s_log.txt"
+#$ -j y
+#$ -l mem_free=10G,h_vmem=20G
+#$ -pe threaded 12
+
+echo "--------------------------------------------------"
+echo "Script starts"
+date
+echo "--------------------------------------------------"
+
+echo "--------------------------------------------------"
+echo "[01]. Loading variables.--------------------------"
+echo "--------------------------------------------------"
+date
+source config.txt
+date
+
+echo "--------------------------------------------------"
+echo "[02]. Dereplication of reads. --------------------"
+echo "--------------------------------------------------"
+date
+usearch92 -fastx_uniques ${SEQS_CLEAR}  -sizeout -fastaout ${WORK_DIR}uniques.fa -threads 1
+date
+
+echo "--------------------------------------------------"
+echo "[03]. Clustering OTUs - unoise2 algorithm. -------"
+echo "--------------------------------------------------"
+date
+usearch92 -unoise2 ${WORK_DIR}uniques.fa -fastaout ${WORK_DIR}otus.fa  -relabel Otu -threads 1 -tabbedout ${WORK_DIR}out.txt -ampout ${WORK_DIR}unoise_amplicon_sequences.fa -otudbout ${WORK_DIR}db.fa
+#since unoise2 doesn't relabel (yet?) sequences, manually format faste headers
+mv ${WORK_DIR}otus.fa ${WORK_DIR}otus_cluttered.fa
+awk '/^>/{print ">Otu" ++i; next}{print}' < ${WORK_DIR}otus_cluttered.fa > ${WORK_DIR}otus.fa #unoise2 doesn't do relabel... so we relabel it with awk
+date
+
+
+echo "--------------------------------------------------"
+echo "[04]. Generating OTU table with Usearch exact.----"
+echo "--------------------------------------------------"
+date
+usearch92 -search_exact ${SEQS_CLEAR} -db ${WORK_DIR}db.fa -blast6out ${WORK_DIR}matches.b6 -strand plus -threads 1 -otutabout ${WORK_DIR}otutab.txt
+date
+
+echo "--------------------------------------------------"
+echo "[05]. Detecting cross-talk within samples.--------"
+echo "-----Uncross algorithm----------------------------"
+echo "See: http://drive5.com/usearch/manual/cmd_uncross.html"
+echo "--------------------------------------------------"
+date
+usearch92 -uncross ${WORK_DIR}otutab.txt -tabbedout ${WORK_DIR}out_uncross.txt -report ${WORK_DIR}rep_uncross.txt -otutabout ${WORK_DIR}otutab_uncross.txt
+date
+
+echo "--------------------------------------------------"
+echo "[06]. Taxonomy prediction with SINTAX-------------"
+echo "reference files also available at: http://www.drive5.com/usearch/manual/sintax_downloads.html"
+echo "--------------------------------------------------"
+date
+usearch92 -makeudb_sintax ${RDP_usearch} -output ${WORK_DIR}rdp_16s_v16.udb  -threads 1
+usearch92 -sintax ${WORK_DIR}otus.fa -db ${WORK_DIR}rdp_16s_v16.udb -tabbedout ${WORK_DIR}reads_rdp.sintax -strand both -sintax_cutoff ${SINTAX_CUTOFF} -threads 1
+# The output .sintax files have four columns. Since "-sintax_cutoff" was passed, we only need 1st column (OTUs names) and fourth (taxonomy without estimates)
+# see more at http://drive5.com/usearch/manual/tax_pred.html
+
+#First cut 1 and 4th coulmn of sintax files
+cut -f1,4 ${WORK_DIR}reads_rdp.sintax > ${WORK_DIR}reads_rdp_confidence.sintax
+##Now filter out empty OTUs - predictions below -sintax_cutoff
+## field separator -F, (coma), but we need tabulated separators FS="\t"
+awk 'BEGIN{FS="\t"} length($2)' ${WORK_DIR}reads_rdp_confidence.sintax > ${WORK_DIR}reads_rdp_confidence_emptyOut.sintax
+# now, in order to append taxonomy for OTUS to OTUtable, we need to change commas to semi-colons
+sed 's/,/;/g' ${WORK_DIR}reads_rdp_confidence_emptyOut.sintax > ${WORK_DIR}reads_rdp_confidence_emptyOut_formatted.sintax
+##For the sake of simple filenames (copy, not rename here, just for protection)
+cp ${WORK_DIR}reads_rdp_confidence_emptyOut_formatted.sintax ${WORK_DIR}taxonomy_rdp.txt
+
+date
+
+echo "--------------------------------------------------"
+echo "[07]. Adding taxonomy to an OTU table-------------"
+echo "--------------------------------------------------"
+date
+#### input table is OTU table after uncross procedure
+biom add-metadata --sc-separated taxonomy --observation-header OTUID,taxonomy --observation-metadata-fp "${WORK_DIR}taxonomy_rdp.txt" -i "${WORK_DIR}otutab_uncross.txt" -o "${WORK_DIR}otutab_uncross_tax_rdp.txt"
+date
+
+echo "--------------------------------------------------"
+echo "[08]. Aligning sequences with PyNAST--------------"
+echo "-from annotated BIOM table------------------------"
+echo "--------------------------------------------------"
+date
+echo "a. Aligning sequences"
+parallel_align_seqs_pynast.py -i "${WORK_DIR}otus.fa" -o "${WORK_DIR}pynast_aligned_seqs" -T --jobs_to_start 12
+echo "b. Filtering alignement (from '-' gaps)"
+filter_alignment.py -o "${WORK_DIR}pynast_aligned_seqs" -i "${WORK_DIR}pynast_aligned_seqs/otus_aligned.fasta"
+date
+
+echo "--------------------------------------------------"
+echo "[09]. Make a phylogenetic tree--------------------"
+echo "--------------------------------------------------"
+date
+make_phylogeny.py -i "${WORK_DIR}pynast_aligned_seqs/otus_aligned_pfiltered.fasta" -o "${WORK_DIR}rep_set.tre"
+date
+
+echo "--------------------------------------------------"
+echo "[10]. USEARCH92 diversity analysis----------------"
+echo "--------------------------------------------------"
+date
+echo "Preprocessing..."
+#tables are in BIOM format, we need QIIME classic tsv format:
+#http://www.drive5.com/usearch/manual/cmd_alpha_div.html
+BIOM_RDP="${WORK_DIR}otutab_uncross_tax_rdp.txt"
+#We will later need to filter OTU table, without OTUid that are found in pynast failures.
+cat "${WORK_DIR}pynast_aligned_seqs/otus_failures.fasta" | grep ">" > "${WORK_DIR}pynast_aligned_seqs/failed_otus.txt"
+sed 's/>//' "${WORK_DIR}pynast_aligned_seqs/failed_otus.txt" > "${WORK_DIR}pynast_aligned_seqs/failed_otus_filtered.txt" #this file has OTUs to exclude
+OTUS_exclude="${WORK_DIR}pynast_aligned_seqs/failed_otus_filtered.txt"
+
+#change names for easier workflow
+mv ${BIOM_RDP} "${WORK_DIR}otutab_uncross_tax_rdp_otus_not_filtered.txt"
+echo "Filtering non matching OTU after pynast alignement"
+filter_otus_from_otu_table.py -i "${WORK_DIR}otutab_uncross_tax_rdp_otus_not_filtered.txt" -o ${BIOM_RDP} -e ${OTUS_exclude}
+#make sure its not HDF only json file
+echo "      Converting OTU tables from BIOM to TSV format (qiime specific)"
+biom convert -i ${BIOM_RDP} -o "${WORK_DIR}otutab_uncross_tax_rdp_TSV.txt" --to-tsv --header-key taxonomy #it is important to keep taxonomy
+TSV_RDP="${WORK_DIR}otutab_uncross_tax_rdp_TSV.txt"
+#first line is giving errors: $sed 1d file.txt > file.txt
+sed 1d ${TSV_RDP} > "${WORK_DIR}otutab_uncross_tax_rdp_TSV_noHead.txt"
+#also, need to convert to integers....
+sed 's/\.0//g' "${WORK_DIR}otutab_uncross_tax_rdp_TSV_noHead.txt" > "${WORK_DIR}otutab_uncross_tax_rdp_TSV_noHead_noFloat.txt"
+#qiime formated (tsv) correct OTU tables
+TSV_RDP="${WORK_DIR}otutab_uncross_tax_rdp_TSV_noHead_noFloat.txt"
+#simple statitics
+#report stats http://www.drive5.com/usearch/manual/cmd_otutab_stats.html
+usearch92 -otutab_stats ${TSV_RDP} -output ${DIV_usearch}report_otuTable_rdp_unfiltered.txt
+
+echo "Alpha diversity in usearch"
+usearch92 -alpha_div ${TSV_RDP} -output ${alpha_dir}alpha_rdp.txt
+
+echo "Beta diversity in usearch"
+#Calculating metrics NOT phylogenetically aware (bray_curtis, etc...)
+usearch92 -beta_div ${TSV_RDP} -filename_prefix ${dist} #-filename_prefix ${beta_dir}RDP/
+#UniFrac - three types of linkage
+usearch92 -cluster_agg "${WORK_DIR}pynast_aligned_seqs/otus_aligned_pfiltered.fasta" -treeout ${DIV_usearch}tree_avg.phy -clusterout ${DIV_usearch}clusters.txt -id 0.97 -linkage avg -threads 1
+usearch92 -cluster_agg "${WORK_DIR}pynast_aligned_seqs/otus_aligned_pfiltered.fasta" -treeout ${DIV_usearch}tree_max.phy -clusterout ${DIV_usearch}clusters.txt -id 0.97 -linkage max -threads 1
+usearch92 -cluster_agg "${WORK_DIR}pynast_aligned_seqs/otus_aligned_pfiltered.fasta" -treeout ${DIV_usearch}tree_min.phy -clusterout ${DIV_usearch}clusters.txt -id 0.97 -linkage min -threads 1
+
+usearchTreeAVG=${DIV_usearch}tree_avg.phy
+usearchTreeMIN=${DIV_usearch}tree_min.phy
+usearchTreeMAX=${DIV_usearch}tree_max.phy
+
+mkdir -p ${dist}unifrac_avg/
+mkdir -p ${dist}unifrac_min/
+mkdir -p ${dist}unifrac_max/
+
+usearch92 -beta_div ${TSV_LTP}  -filename_prefix ${dist}unifrac_avg/ -metrics unifrac -tree ${usearchTreeAVG}
+usearch92 -beta_div ${TSV_LTP}  -filename_prefix ${dist}unifrac_min/ -metrics unifrac -tree ${usearchTreeMIN}
+usearch92 -beta_div ${TSV_LTP}  -filename_prefix ${dist}unifrac_max/ -metrics unifrac -tree ${usearchTreeMAX}
+
+#Again the formatting is misleading, and leads to erros so. For example for bray curtis metrics
+sed -e '1s/bray_curtis//' ${dist}bray_curtis.txt > ${dist}bray_curtis_clean.txt
+principal_coordinates.py -i ${dist}bray_curtis_clean.txt -o ${pcoa}bray_curtis_pcoa.txt
+
+sed -e '1s/unifrac//' ${dist}unifrac_avg/unifrac.txt > ${dist}unifrac_avg/unifrac_clean.txt
+sed -e '1s/unifrac//' ${dist}unifrac_min/unifrac.txt > ${dist}unifrac_min/unifrac_clean.txt
+sed -e '1s/unifrac//' ${dist}unifrac_max/unifrac.txt > ${dist}unifrac_max/unifrac_clean.txt
+
+principal_coordinates.py -i ${dist}unifrac_avg/unifrac_clean.txt -o ${pcoa}unifrac_pcoa_avg.txt
+principal_coordinates.py -i ${dist}unifrac_min/unifrac_clean.txt -o ${pcoa}unifrac_pcoa_min.txt
+principal_coordinates.py -i ${dist}unifrac_max/unifrac_clean.txt -o ${pcoa}unifrac_pcoa_max.txt
+
+#Then PCOA plot in emperor.
+make_emperor.py -i ${pcoa}bray_curtis_pcoa.txt -o ${pcoa}bray_curtis_pcoa/ -m ${MAPPING}
+
+make_emperor.py -i ${pcoa}unifrac_pcoa_avg.txt -o ${pcoa}unifrac_pcoa_avg/ -m ${MAPPING} #probably this is used in qiime
+make_emperor.py -i ${pcoa}unifrac_pcoa_min.txt -o ${pcoa}unifrac_pcoa_min/ -m ${MAPPING}
+make_emperor.py -i ${pcoa}unifrac_pcoa_max.txt -o ${pcoa}unifrac_pcoa_max/ -m ${MAPPING}
+
+date
+
+echo "--------------------------------------------------"
+echo "[11]. QIIME Core Diversity Analysis---------------"
+echo "--------------------------------------------------"
+date
+# Sampling depth comes as a minimum number of sequences in any sample
+biom summarize-table -i "${WORK_DIR}otutab_uncross_tax_rdp.txt"  | grep Min > ${WORK_DIR}depth.txt
+cut -d ' ' -f3 ${WORK_DIR}depth.txt > ${WORK_DIR}depth_f.txt
+while read line;
+do
+  depth=${line}
+done<"${WORK_DIR}depth_f.txt"
+
+core_diversity_analyses.py -i "${WORK_DIR}otutab_uncross_tax_rdp.txt" -o "${DIV_qiime}" -m ${MAPPING} -e ${depth} -t "${WORK_DIR}rep_set.tre" -a -O ${PE_THREADED} -c ${MAPPING_METADATA} -p ${QIIME_PARAMS}  --recover_from_failure
+rm ${WORK_DIR}depth.txt
+mv ${WORK_DIR}depth_f.txt ${WORK_DIR}depth.txt
+
+QIIME_tree="${BASE_DIR}rep_set.tre"
+
+date
+
+
+
+echo "--------------------------------------------------"
+echo "[12]. QIIME Jackknifed Beta Diversity-------------"
+echo "--------------------------------------------------"
+date
+QIIME_tree="${BASE_DIR}rep_set.tre"
+jackknifed_beta_diversity.py -i "${WORK_DIR}otutab_uncross_tax_rdp.txt" -t "${WORK_DIR}rep_set.tre" -m ${MAPPING} -o "${DIV_jack}" -e ${depth} --master_tree full -a -O ${PE_THREADED}
+#is upgma obsolete? read: http://www.drive5.com/usearch/manual/agg.html
+#or rather http://drive5.com/usearch/manual/linkage.html
+jackknifed_beta_diversity.py -i "${WORK_DIR}otutab_uncross_tax_rdp.txt" -t "${WORK_DIR}rep_set.tre" -m ${MAPPING} -o "${DIV_jack}" -e ${depth} --master_tree consensus -a -O ${PE_THREADED}
+
+
+date
+
+"--------------------------------------------------"
+echo "Script ends"
+date
+echo "--------------------------------------------------"

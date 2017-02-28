@@ -1,0 +1,60 @@
+# This is a configuration file for every script used in 16S analysis pipeline.
+
+
+
+                                                              ### General - options need to be set up
+
+BASE_DIR="filepath/to/your/base/directory/"
+MAPPING_F_FP="filepath_to_a_mapping_file"
+MAPPING_METADATA="Status" #add more after coma ',' sign, i.e. "Status,Age,BMI,Severity" etc...
+PE_THREADED=12 #be sure to change this also in "Metagenomics_16s.pbs", when doing qiime analysis
+
+
+                                                              ### General - options need to be set up
+MAPPING="${BASE_DIR}/mapping/mapping.txt"
+
+
+                                                              ### Preprocessing
+
+
+MERGE_DIR="${BASE_DIR}02_merged_fastq/" #folder containing merged read-pairs for each sample
+FASTQ_DIR="${BASE_DIR}01_fastq/"
+CONT_DIR="${MERGE_DIR}contaminants/" #folder of contaminant sequences
+SEQUENCE_DIR="${BASE_DIR}03_concatenated/" #folder of concatenated sequences
+
+                                                              ### Diversity and abundance analysis
+WORK_DIR=${BASE_DIR}downstream/ #you could name your analysis folder here
+SINTAX_CUTOFF=0.8
+
+NCBI_PATH="${BASE_DIR}ncbi_blast/"
+CONTAMINANTS_NAME="${SEQUENCE_DIR}/contaminants.fq"
+SEQS_NAME="${SEQUENCE_DIR}/seqs.fq"
+CONTAMINANTS_NAME_FA="${SEQUENCE_DIR}/contaminants.fa"
+SEQS_NAME_FA="${SEQUENCE_DIR}/seqs.fa"
+SEQS_CLEAR="${SEQUENCE_DIR}/decontaminated/non-matching.fna" #sequences not matching to contaminants, i.e. decontaminated
+
+QIIME_PARAMS=${BASE_DIR}/qiime_params.txt
+REF_FILE=${BASE_DIR}/databases/gg_13_8_otus/rep_set/97_otus.fasta
+TAXONOMY_FILE=${BASE_DIR}/databases/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
+
+RDP_usearch=${BASE_DIR}/databases/rdp_16s_v16.fa
+
+DIV_usearch="${WORK_DIR}/diversity/usearch92/"
+alpha_dir="${DIV_usearch}alpha/"
+beta_dir="${DIV_usearch}beta/"
+dist="${beta_dir}distance_metrics/"
+pcoa="${beta_dir}PCOA/"
+
+DIV_qiime="${WORK_DIR}/diversity/qiime/"
+DIV_jack="${WORK_DIR}/diversity/jacknified/"
+DIV_jack_c="${WORK_DIR}/diversity/jacknified_consensus/"
+
+
+                                                              ### PICRUST
+PICRUST_DIR="${BASE_DIR}picrust/"
+QIIME_PARAMS_PICRUST=${BASE_DIR}/qiime_params_picrust.txt
+QIIME_PARAMS_PICRUST_l3="${BASE_DIR}/qiime_params_picrust_l3.txt"
+QIIME_PARAMS_PICRUST_l2="${BASE_DIR}/qiime_params_picrust_l2.txt"
+REF_FILE_PIC=${BASE_DIR}/databases/gg_13_5_otus/rep_set/97_otus.fasta
+TAXONOMY_FILE_PIC=${BASE_DIR}/databases/gg_13_5_otus/taxonomy/97_otu_taxonomy.txt
+PICRUST_ANALYSIS="${PICRUST_DIR}/analysis/"

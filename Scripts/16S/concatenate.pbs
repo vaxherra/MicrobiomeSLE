@@ -1,0 +1,22 @@
+#!/bin/bash
+#$ -V
+#$ -cwd
+#$ -o concatenate_log.txt
+#$ -j y
+#$ -l mem_free=10G,h_vmem=20G
+#$ -pe threaded 12
+
+
+echo "--------------------------------------------------"
+echo "Script starts"
+date
+echo "--------------------------------------------------"
+
+cat ${MERGE_DIR}*.fq > ${SEQUENCE_DIR}/seqs.fq # concatenate  all sammples
+cat ${CONT_DIR}*.fq > ${SEQUENCE_DIR}/contaminants.fq
+
+
+echo "--------------------------------------------------"
+echo "Script ends"
+date
+echo "--------------------------------------------------"

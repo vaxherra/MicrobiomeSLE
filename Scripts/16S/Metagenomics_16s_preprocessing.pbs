@@ -1,0 +1,59 @@
+#!/bin/bash
+#$ -V
+#$ -cwd
+#$ -o "logs/Metagenomics_16s_preprocessing_log.txt"
+#$ -j y
+#$ -pe threaded 1
+#$ -l mem_free=10G,h_vmem=10G
+
+module load bbmap
+module load trimmomatic
+
+
+echo "--------------------------------------------------"
+echo "Script starts"
+date
+echo "--------------------------------------------------"
+
+#[01]. Loading variables
+source config.txt
+SAMPLE_ID=$1 #value passed when submitting, this is a sample ID corresponding to a mapping file, that needs to be preprocessed (i.e. merging read-pairs)
+TYPE="study_name" #name of the file in the container o3 system
+O3_ACCT="o3://location/${TYPE}" # location in the container system
+
+#[02]. Preprocessing files stored in a container system
+
+XZFILES="$(swift list ${TYPE} -p ${SAMPLE_ID} )"
+
+echo ${XZFILES} > ${FASTQ_DIR}input_files.txt
+arr=("${XZFILES//¬/}") #just for protection
+INPUTFILES=""
+INPUTFILES=$(for element in ${arr[@]}; do INPUTFILES="${INPUTFILES}${O3_ACCT}$element "; done; echo -e "${INPUTFILES}")
+#above command creates paths that are separated by a single space
+
+echo "o3-do.rb --source-env --verbose "${INPUTFILES}" \"trimmomatic_pe -threads 8 -phred33  <(xzcat {1} {3}) <(xzcat {2} {4}) ${FASTQ_DIR}${SAMPLE_ID}_R1.fastq /dev/null  ${FASTQ_DIR}${SAMPLE_ID}_R2.fastq  /dev/null ILLUMINACLIP:${BASE_DIR}/illuminaAdapters.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:5:15 MINLEN:15\" " > ${FASTQ_DIR}${SAMPLE_ID}_trimScript.pbs
+#/dev/null - because we don't want to store unpaired forward and reverse strand resulting from trimmomatic_pe (paired-ends)
+qsub -cwd -j y -V -sync y -pe threaded 8 -N Trm_${SAMPLE_ID} -l mem_free=5G,h_vmem=5G -o "${FASTQ_DIR}${SAMPLE_ID}TrimJob.txt" ${FASTQ_DIR}${SAMPLE_ID}_trimScript.pbs
+
+if [ ! -s "${MERGE_DIR}${SAMPLE_ID}.fq" ];then
+
+ALT_ID=("${SAMPLE_ID//[-]/_}") #replace dash by underscores
+ALT_ID="s${ALT_ID}"
+	usearch92 -threads 1 -fastq_mergepairs "${BASE_DIR}01_fastq/${SAMPLE_ID}_R1.fastq" -reverse  "${BASE_DIR}01_fastq/${SAMPLE_ID}_R2.fastq" -fastq_maxdiffpct 5  -fastq_maxdiffs 5 -report ${MERGE_DIR}${ALT_ID}.report.txt -relabel ${ALT_ID}. -fastqout "${MERGE_DIR}${ALT_ID}.fq"
+
+fi
+
+
+
+
+
+
+
+
+
+
+
+echo "--------------------------------------------------"
+echo "Script ends"
+date
+echo "--------------------------------------------------"

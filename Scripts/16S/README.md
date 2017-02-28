@@ -111,8 +111,9 @@ Works with GreenGenes 13_5 database (Picrust requirement).
 2. Run setup configuration file setup.sh, that would create necessary folders, download, extract databases, copy and prepare mapping files, configuration files etc...
 	`chmod +x `
 	`.setup.sh`
-3. Copy prepared QIIME configuration file from specified base folder (${BASE_DIR}) to your home folder, i.e. the default location for qiime config - [see more at](http://qiime.org/install/qiime_config.html).
- `cp ${BASE_DIR}/qiime config.txt ~/.qiime_confi`g	
+3. Copy prepared QIIME configuration file from specified base folder (${BASE_DIR}) to your home folder, i.e. the default location for qiime config - [see more at](http://qiime.org/install/qiime_config.html). Do the same for ncbirc file.
+ `cp ${BASE_DIR}/qiime config.txt ~/.qiime_confi`g
+ `cp ${BASE_DIR}/ncbirc.txt ~/.ncbirc`
 4. Generate submission file for preprocessing - preprocessing_from_mapping.py
   Although one could submit each job "Metagenomics_16s_preprocessing.pbs" manually for each sample ID, I encourage to use this script,
   that would take as an input mapping file, and produce .pbs script. You can either edit this document, and copy each submission line to terminal that has access to computing cluster, or to copy this file to a place where preprocessing script reside and submit it.

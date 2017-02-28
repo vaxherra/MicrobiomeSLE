@@ -21,6 +21,9 @@ echo "assign_taxonomy_id_to_taxonomy_fp       ${BASE_DIR}/databases/${DB_IN_USE}
 
 #for safety we use here 13_5, later qiime config settings are overwritten by qime parameters
 
+#NCBIRC
+echo "data=\"${NCBI_PATH}2.2.22/data/\“" > ${BASE_DIR}/ncbirc
+
 
 
 

@@ -101,23 +101,58 @@ Works with GreenGenes 13_5 database (Picrust requirement).
 
 ## IV. Running Code
 
-1. Configurate config.txt
-- mapping
-- analysis name
+1. Edit config.txt file, changing at least
+- ${BASE_DIR} - choose location for folder containing raw files, analyses, and other data
+- ${MAPPING_F_FP} - specify location of prepared mapping file
+- ${MAPPING_METADATA} - specify what metadata would be used to perform group analysis
+- ${PE_THREADED} - specify how many threads some scripts of the pipeline may be used
+- ${WORK_DIR} - specify the name of the downstream analysis [default: downstream]
 
-2. Run setup.sh
-	chmod +x .setup.sh
-0. QIIME config - copy from base to home folder 
- cp ${BASE_DIR}/qiime config.txt ~/.qiime_config	
-3. Generate submission file for preprocessing - preprocessing_from_mapping.py
-	a. for sample sequences
-	b. for contaminating sequences (preparing a contaminate mapping file may be necessary)
-4. Run preprocessing.pbs / preprocessing_contaminants.pbs
-5. Concatenate - concatenate.pbs
-6. Decontaminate -  decontaminate
-7. Run diversity analysis.pbs
-8. Run picrust analysis
+2. Run setup configuration file setup.sh, that would create necessary folders, download, extract databases, copy and prepare mapping files, configuration files etc...
+	`chmod +x `
+	`.setup.sh`
+3. Copy prepared QIIME configuration file from specified base folder (${BASE_DIR}) to your home folder, i.e. the default location for qiime config - [see more at](http://qiime.org/install/qiime_config.html).
+ `cp ${BASE_DIR}/qiime config.txt ~/.qiime_confi`g	
+4. Generate submission file for preprocessing - preprocessing_from_mapping.py
+  Although one could submit each job "Metagenomics_16s_preprocessing.pbs" manually for each sample ID, I encourage to use this script,
+  that would take as an input mapping file, and produce .pbs script. You can either edit this document, and copy each submission line to terminal that has access to computing cluster, or to copy this file to a place where preprocessing script reside and submit it.
+  
+  Note!
+  If there are multiple contaminant files, i.e. when multiple DNA extractions have been made leaving many extractions controls, one could use preprocessing_from_mapping.py and manually specified mapping file, where SampleID is just the id of a contaminant. Otherwise, it is easy to manually submit Metagenomics_16s_preprocessing_contaminants.pbs for each contaminating sequence. 
+  
+  `python preprocessing_from_mapping.py`
+  
+  A mapping file has to be in the same folder as this python script.
+  This script resides in ${BASE_DIR}/mapping. 
+5. Run preprocessing script for each of the samples separately.
+	See point above. Script "preprocessing_from_mapping.py" helps in speeding this process. 
+	Use:
+	- "Metagenomics_16s_preprocessing.pbs" for processing valid sample sequences,
+	- "Metagenomics_16s_preprocessing_contaminants.pbs" for so called "contaminants" - extraction blanks, PCR blanks, everything that could be counted as unwanted, polluting sequences. This script is the same as the first, only it stores sequences in different folder.
+	
+  Example job submission:
+  `qsub -N jobName1 Metagenomics_16s_preprocessing.pbs sampleID1`
+  `qsub -N jobName2 Metagenomics_16s_preprocessing.pbs sampleID2`
+  ...
+  `qsub -N jobNameN Metagenomics_16s_preprocessing.pbs sampleIDN`
+  
+  `qsub -N AnotherjobName1 Metagenomics_16s_preprocessing_contaminants.pbs contaminantID1`
+  `qsub -N AnotherjobName2 Metagenomics_16s_preprocessing_contaminants.pbs contaminantID2`
+  ...
+  `qsub -N AnotherjobNameN Metagenomics_16s_preprocessing_contaminants.pbs contaminantID3`
 
-5.,6. could be run independently.
+6. Concatenate all valid (wanted), studies sequences into one file (the same for contaminant files) - concatenate.pbs
+   It is easily done by simply submitting "concatenate.pbs" script. No parameter specifications are required.
+   `qsub -N CAT concatenate.pbs`
+7. Decontaminate valid/studied biological sequences using contaminating sequences. This step is long, and depends on available memory.
+8. Run diversity analysis. This script automatically runs all necessary diversity and abundance analysis.
+9. Run picrust analysis. This script automaticall runs all necessary metagenomic predictions. Not that for further analysis a STAMP software package is recommended. Output biom table in tsv format is specified, that stands as an input to STAMP software.
+
+The last two steps could be run in parallel, while other are to be executed in a linear manner.
 ## V. References
 
+[QIIME software](http://qiime.org/index.html)
+[PICRUSt software](http://picrust.github.io/picrust/)
+[USEARCH](http://drive5.com/usearch/)
+[STAMP Analysis Software](http://kiwi.cs.dal.ca/Software/STAMP)
+[Microbiome Helper Virtual Machine](https://github.com/mlangill/microbiome_helper/wiki)

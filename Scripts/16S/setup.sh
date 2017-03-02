@@ -19,6 +19,9 @@ echo "assign_taxonomy_reference_seqs_fp       ${BASE_DIR}/databases/${DB_IN_USE}
 echo "pick_otus_reference_seqs_fp     ${BASE_DIR}/databases/${DB_IN_USE}/rep_set/97_otus.fasta" >> ${BASE_DIR}/qiime_config.txt
 echo "assign_taxonomy_id_to_taxonomy_fp       ${BASE_DIR}/databases/${DB_IN_USE}/taxonomy/97_otu_taxonomy.txt" >> ${BASE_DIR}/qiime_config.txt
 
+
+cp gold.fa ${BASE_DIR}/gold.fa #for usearch_ref - PICRUSt closed reference predictions
+
 #for safety we use here 13_5, later qiime config settings are overwritten by qime parameters
 
 #NCBIRC
@@ -54,7 +57,8 @@ echo "parallel_assign_taxonomy_uclust:id_to_taxonomy_fp ${BASE_DIR}/databases/${
 echo "assign_taxonomy:id_to_taxonomy_fp ${BASE_DIR}/databases/${DB_IN_USE_picrust}/taxonomy/97_otu_taxonomy.txt" >> ${BASE_DIR}/qiime_params_picrust.txt
 echo "assign_taxonomy:reference_seqs_fp ${BASE_DIR}/databases/${DB_IN_USE_picrust}/rep_set/97_otus.fasta" >> ${BASE_DIR}/qiime_params_picrust.txt
 echo "parallel_align_seqs_pynast:template_fp ${BASE_DIR}/databases/${DB_IN_USE_picrust}/rep_set_aligned/85_otus.fasta" >> ${BASE_DIR}/qiime_params_picrust.txt
-
+echo "pick_otus:db_filepath ${BASE_DIR}/gold.fa >> ${BASE_DIR}/qiime_params_picrust.txt
+"
 #Since we produce two levels of COG pathways, {l3,l2} we need to have to separate parameters files
 cp ${BASE_DIR}/qiime_params_picrust.txt ${BASE_DIR}/qiime_params_picrust_l3.txt
 echo "summarize_taxa:md_identifier    \"KEGG_Pathways\"" >> ${BASE_DIR}/qiime_params_picrust_l3.txt

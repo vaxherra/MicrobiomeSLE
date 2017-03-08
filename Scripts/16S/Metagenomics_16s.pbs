@@ -40,6 +40,9 @@ else
   #then we sort each line by corresponding size (written in a file in header section of each sequence, ex.#
   # >SAMPLE1.1_0;size=69364;
   # ACTGTT...
+  #We do not care at this point if we "lost" information stored in headers, as we just want to prepare dereplicated reads
+  #that would later be used in clustering into OTUs (zOTUs), then all sequences from ${INPUT_FASTA} (containing information as to the sample etc..) would be searched
+  #against this identified OTUs.
 date
 
 echo "--------------------------------------------------"

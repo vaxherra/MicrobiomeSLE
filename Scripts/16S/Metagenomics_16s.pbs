@@ -22,7 +22,24 @@ echo "--------------------------------------------------"
 echo "[02]. Dereplication of reads. --------------------"
 echo "--------------------------------------------------"
 date
-usearch92 -fastx_uniques ${SEQS_CLEAR}  -sizeout -fastaout ${WORK_DIR}uniques.fa -threads 1
+if [ $actualsize -le 3000000000 ]; then
+  usearch92 -fastx_uniques ${INPUT_FASTA}  -sizeout -fastaout ${WORK_DIR}uniques.fa -threads 1
+else
+  echo "Input file too big for free usearch 32bit version, emplyoing BASH sorting. "
+  grep -v "^>" ${INPUT_FASTA} | grep -v [^ACGTNacgtn] | sort -d | uniq -c | while read abundance sequence ; do hash=$(printf "${sequence}" | sha1sum); hash=${hash:0:40};printf ">%s;size=%d;\n%s\n" "${hash}" "${abundance}" "${sequence}"; done > "${WORK_DIR}uniques_unsorted.fa"
+  #Grep -v inverts sense of matching, so we are choosing sequences not starting with ">", i.e. starting only with nucleotide sequences,
+  #Then we are using double negation grep -v [^...], where square brackets are POSIX regular expressions - matching one character out of a set of specified set of characters
+  #so technically we are keeping only lines that thave expected nucleotides ACGT and variations, plus N for not known.
+  # '^' is the negation in POSIX expressions: http://www.regular-expressions.info/posixbrackets.html
+
+  #later on we sort sequences alphabetically, so the same sequences would be "near" each other,
+  #then we use uniq function to compute how many unique sequences (identical) there are, and recond its count (abundance)
+  # at the end we just print a sequence, unique hash number, sequence size
+  usearch92 -sortbysize "${WORK_DIR}uniques_unsorted.fa" -fastaout "${WORK_DIR}uniques.fa" -minsize 2
+
+  #then we sort each line by corresponding size (written in a file in header section of each sequence, ex.#
+  # >SAMPLE1.1_0;size=69364;
+  # ACTGTT...
 date
 
 echo "--------------------------------------------------"

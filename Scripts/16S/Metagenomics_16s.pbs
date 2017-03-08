@@ -22,6 +22,7 @@ echo "--------------------------------------------------"
 echo "[02]. Dereplication of reads. --------------------"
 echo "--------------------------------------------------"
 date
+actualsize=$(wc -c <"${INPUT_FASTA}")
 if [ $actualsize -le 3000000000 ]; then
   usearch92 -fastx_uniques ${INPUT_FASTA}  -sizeout -fastaout ${WORK_DIR}uniques.fa -threads 1
 else

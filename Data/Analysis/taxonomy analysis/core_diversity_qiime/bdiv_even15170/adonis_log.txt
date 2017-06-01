@@ -1,0 +1,4 @@
+Remember to login into o3!
+o3-login -t LDAP_ss-prj-gaffney-metagenome
+Remember to login into o3!
+o3-login -t LDAP_ss-prj-gaffney-metagenome

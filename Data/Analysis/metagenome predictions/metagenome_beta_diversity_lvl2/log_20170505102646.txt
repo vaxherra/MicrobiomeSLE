@@ -1,0 +1,60 @@
+Logging started at 10:26:46 on 05 May 2017
+QIIME version: 1.9.1
+
+qiime_config values:
+pick_otus_reference_seqs_fp	/Users/kwapichr/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+sc_queue	all.q
+pynast_template_alignment_fp	/Users/kwapichr/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set_aligned/85_otus.pynast.fasta
+cluster_jobs_fp	start_parallel_jobs.py
+assign_taxonomy_reference_seqs_fp	/Users/kwapichr/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+torque_queue	friendlyq
+jobs_to_start	3
+denoiser_min_per_core	50
+assign_taxonomy_id_to_taxonomy_fp	/Users/kwapichr/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
+temp_dir	/var/folders/ys/38gq1gkj7jx1m55z8hgxwkssv4d1yw/T/
+blastall_fp	/Users/kwapichr/Documents/mothur/blast/bin/blastall
+seconds_to_sleep	1
+
+parameter file values:
+beta_diversity:metrics	bray_curtis
+parallel:jobs_to_start	3
+
+Input file md5 sums:
+metagenome_at_level2.biom: 7f10ee31676b3d0434c089ad6fc5188d
+mapping_03_picrust.txt: 33f4a50e360fc77ea92161adcfc171e1
+
+Executing commands.
+
+# Beta Diversity (bray_curtis) command 
+beta_diversity.py -i metagenome_at_level2.biom -o beta_l2 --metrics bray_curtis 
+
+Stdout:
+
+Stderr:
+/Users/kwapichr/.local/lib/python2.7/site-packages/cogent-1.5.3-py2.7-macosx-10.6-x86_64.egg/cogent/maths/distance_transform.py:188: VisibleDeprecationWarning: `rank` is deprecated; use the `ndim` attribute or function instead. To find the rank of a matrix see `numpy.linalg.matrix_rank`.
+
+# Rename distance matrix (bray_curtis) command 
+mv beta_l2/bray_curtis_metagenome_at_level2.txt beta_l2/bray_curtis_dm.txt
+
+Stdout:
+
+Stderr:
+
+# Principal coordinates (bray_curtis) command 
+principal_coordinates.py -i beta_l2/bray_curtis_dm.txt -o beta_l2/bray_curtis_pc.txt 
+
+Stdout:
+
+Stderr:
+/Users/kwapichr/miniconda2/envs/qiime1/lib/python2.7/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.021033844538 and the largest is 3.99697118301.
+  RuntimeWarning
+
+# Make emperor plots, bray_curtis) command 
+make_emperor.py -i beta_l2/bray_curtis_pc.txt -o beta_l2/bray_curtis_emperor_pcoa_plot/ -m mapping_03_picrust.txt 
+
+Stdout:
+
+Stderr:
+
+
+Logging stopped at 10:26:51 on 05 May 2017

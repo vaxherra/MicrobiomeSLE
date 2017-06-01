@@ -1,0 +1,32 @@
+# Constructed from biom file
+#OTU ID	Female	Male
+d:Archaea;p:Euryarchaeota;c:Methanobacteria	0.000648608595909	0.00837099385411
+d:Bacteria;Other;Other	0.00239858761961	0.00982882046482
+d:Bacteria;p:Actinobacteria;Other	2.36524983104e-05	0.0
+d:Bacteria;p:Actinobacteria;c:Actinobacteria	0.0367879948075	0.0138416800301
+d:Bacteria;p:Bacteroidetes;Other	0.00069754479931	0.000498730156294
+d:Bacteria;p:Bacteroidetes;c:Bacteroidia	0.356963504501	0.338660794439
+d:Bacteria;p:Bacteroidetes;c:Cytophagia	5.09752118759e-07	0.0
+d:Bacteria;p:Bacteroidetes;c:Flavobacteriia	3.87411610257e-06	7.6727716353e-06
+d:Bacteria;p:Bacteroidetes;c:Sphingobacteriia	6.32092627261e-06	0.0
+d:Bacteria;p:Cyanobacteria/Chloroplast;c:Chloroplast	5.26064186559e-05	0.0
+d:Bacteria;p:Firmicutes;Other	0.00549991951014	0.00587734307264
+d:Bacteria;p:Firmicutes;c:Bacilli	0.00926311355167	0.0160744565759
+d:Bacteria;p:Firmicutes;c:Clostridia	0.43464004211	0.514083372337
+d:Bacteria;p:Firmicutes;c:Erysipelotrichia	0.012718315363	0.0322716774981
+d:Bacteria;p:Firmicutes;c:Negativicutes	0.0389811523232	0.00376733087293
+d:Bacteria;p:Fusobacteria;c:Fusobacteriia	0.00661138302988	0.000253201463965
+d:Bacteria;p:Gemmatimonadetes;c:Gemmatimonadetes	6.11702542511e-07	0.0
+d:Bacteria;p:Lentisphaerae;c:Lentisphaeria	2.00842334791e-05	0.0
+d:Bacteria;p:Parcubacteria;Other	8.15603390015e-07	0.0
+d:Bacteria;p:Proteobacteria;Other	8.15603390015e-07	0.0
+d:Bacteria;p:Proteobacteria;c:Alphaproteobacteria	0.00316810941809	1.53455432706e-05
+d:Bacteria;p:Proteobacteria;c:Betaproteobacteria	0.0177127646722	0.00854746760172
+d:Bacteria;p:Proteobacteria;c:Deltaproteobacteria	0.00647996893367	0.000874695966424
+d:Bacteria;p:Proteobacteria;c:Epsilonproteobacteria	3.59884995844e-05	7.6727716353e-06
+d:Bacteria;p:Proteobacteria;c:Gammaproteobacteria	0.0225628521814	0.00266245175745
+d:Bacteria;p:Spirochaetes;c:Spirochaetia	4.07801695007e-07	0.0
+d:Bacteria;p:Synergistetes;c:Synergistia	0.000126214624605	0.0
+d:Bacteria;p:Tenericutes;c:Mollicutes	3.25221851768e-05	0.0
+d:Bacteria;p:Verrucomicrobia;c:Opitutae	6.01507500136e-06	0.0
+d:Bacteria;p:Verrucomicrobia;c:Verrucomicrobiae	0.0445556995435	0.0443562928237

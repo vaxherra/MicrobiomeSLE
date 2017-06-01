@@ -1,0 +1,17 @@
+# Constructed from biom file
+#OTU ID	Female	Male
+d:Archaea;p:Euryarchaeota	0.000648608595909	0.00837099385411
+d:Bacteria;Other	0.00239858761961	0.00982882046482
+d:Bacteria;p:Actinobacteria	0.0368116473058	0.0138416800301
+d:Bacteria;p:Bacteroidetes	0.357671754095	0.339167197367
+d:Bacteria;p:Cyanobacteria/Chloroplast	5.26064186559e-05	0.0
+d:Bacteria;p:Firmicutes	0.501102542858	0.572074180356
+d:Bacteria;p:Fusobacteria	0.00661138302988	0.000253201463965
+d:Bacteria;p:Gemmatimonadetes	6.11702542511e-07	0.0
+d:Bacteria;p:Lentisphaerae	2.00842334791e-05	0.0
+d:Bacteria;p:Parcubacteria	8.15603390015e-07	0.0
+d:Bacteria;p:Proteobacteria	0.0499604993083	0.0121076336405
+d:Bacteria;p:Spirochaetes	4.07801695007e-07	0.0
+d:Bacteria;p:Synergistetes	0.000126214624605	0.0
+d:Bacteria;p:Tenericutes	3.25221851768e-05	0.0
+d:Bacteria;p:Verrucomicrobia	0.0445617146185	0.0443562928237

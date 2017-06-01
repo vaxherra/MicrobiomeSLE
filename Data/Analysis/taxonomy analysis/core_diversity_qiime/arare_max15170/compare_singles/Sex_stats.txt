@@ -1,0 +1,2 @@
+Group1	Group2	Group1 mean	Group1 std	Group2 mean	Group2 std	t stat	p-value
+Male	Female	56.1	32.7	31.2307692308	19.2792531677	1.75006159361	0.059

@@ -1,0 +1,386 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within Race_standarized	All between Race_standarized	-4.38810914131	1.17096484381e-05	0.00441453746118	0.001	0.377
+All within Race_standarized	African_American vs. African_American	-3.0804403359	0.00210036868582	0.791838994555	0.004	1.000
+All within Race_standarized	Hispanic_Latino vs. Hispanic_Latino	3.00637270363	0.00269480692078	1	0.003	1.000
+All within Race_standarized	Multi_racial vs. Multi_racial	0.640111771813	[ 0.52222316]	1	0.499	1.000
+All within Race_standarized	Asian vs. Asian	0.884114835339	0.376808850489	1	0.359	1.000
+All within Race_standarized	Caucasian vs. Caucasian	1.72312321833	0.0850428934047	1	0.097	1.000
+All within Race_standarized	NA vs. African_American	-1.67828125668	0.0935481017251	1	0.099	1.000
+All within Race_standarized	NA vs. Hispanic_Latino	-3.18389655593	0.00149029889239	0.561842682431	0.002	0.754
+All within Race_standarized	NA vs. Multi_racial	-1.65591843066	0.0980017631109	1	0.096	1.000
+All within Race_standarized	NA vs. Asian	-3.34048276537	0.000862115182203	0.32501742369	0.002	0.754
+All within Race_standarized	NA vs. Caucasian	-2.56633321337	0.0103962112006	1	0.006	1.000
+All within Race_standarized	NA vs. Caucasian/African American	2.02097561211	[ 0.04350586]	1	0.043	1.000
+All within Race_standarized	African_American vs. Hispanic_Latino	-0.736173999604	0.461728265575	1	0.465	1.000
+All within Race_standarized	African_American vs. Multi_racial	-5.99030756521	2.73287593281e-09	1.03029422667e-06	0.001	0.377
+All within Race_standarized	African_American vs. Asian	-3.9408905126	8.50577876153e-05	0.032066785931	0.001	0.377
+All within Race_standarized	African_American vs. Caucasian	-2.82601099026	0.00475427772733	1	0.003	1.000
+All within Race_standarized	African_American vs. Caucasian/African American	-3.52099333809	0.000445776351645	0.16805768457	0.001	0.377
+All within Race_standarized	Hispanic_Latino vs. Multi_racial	-3.30329414035	0.000983299159818	0.370703783251	0.001	0.377
+All within Race_standarized	Hispanic_Latino vs. Asian	1.45708730882	0.145332116654	1	0.143	1.000
+All within Race_standarized	Hispanic_Latino vs. Caucasian	0.64752234275	0.517381421	1	0.544	1.000
+All within Race_standarized	Hispanic_Latino vs. Caucasian/African American	-0.952277406328	0.341147441987	1	0.321	1.000
+All within Race_standarized	Multi_racial vs. Asian	-4.22468014571	2.57311886652e-05	0.00970065812678	0.001	0.377
+All within Race_standarized	Multi_racial vs. Caucasian	-3.51606435074	0.000453584503725	0.171001357904	0.001	0.377
+All within Race_standarized	Multi_racial vs. Caucasian/African American	-0.594624870471	0.552207193459	1	0.552	1.000
+All within Race_standarized	Asian vs. Caucasian	-3.66203086182	0.000259149498713	0.0976993610149	0.001	0.377
+All within Race_standarized	Asian vs. Caucasian/African American	-0.176719380323	0.859758712108	1	0.841	1.000
+All within Race_standarized	Caucasian vs. Caucasian/African American	-3.70436136196	0.000221381087969	0.0834606701645	0.001	0.377
+All between Race_standarized	African_American vs. African_American	-0.409160665057	0.68244622816	1	0.682	1.000
+All between Race_standarized	Hispanic_Latino vs. Hispanic_Latino	4.61013024827	4.18214866715e-06	0.00157667004752	0.001	0.377
+All between Race_standarized	Multi_racial vs. Multi_racial	0.493024242505	[ 0.62203054]	1	0.633	1.000
+All between Race_standarized	Asian vs. Asian	1.68343817442	0.0923905638263	1	0.100	1.000
+All between Race_standarized	Caucasian vs. Caucasian	5.21370466516	1.95391440139e-07	7.36625729323e-05	0.001	0.377
+All between Race_standarized	NA vs. African_American	-0.871311496855	0.383651197709	1	0.392	1.000
+All between Race_standarized	NA vs. Hispanic_Latino	-2.62822246808	0.00862557334799	1	0.016	1.000
+All between Race_standarized	NA vs. Multi_racial	-1.45134542915	0.146785308266	1	0.129	1.000
+All between Race_standarized	NA vs. Asian	-2.9339385677	0.00337151955755	1	0.006	1.000
+All between Race_standarized	NA vs. Caucasian	-1.72214817004	0.0851418211773	1	0.072	1.000
+All between Race_standarized	NA vs. Caucasian/African American	1.87979742313	[ 0.06022983]	1	0.061	1.000
+All between Race_standarized	African_American vs. Hispanic_Latino	2.22918910948	0.025863406831	1	0.035	1.000
+All between Race_standarized	African_American vs. Multi_racial	-4.91719753352	9.2287759624e-07	0.000347924853782	0.001	0.377
+All between Race_standarized	African_American vs. Asian	-1.92496852704	0.0543181031603	1	0.051	1.000
+All between Race_standarized	African_American vs. Caucasian	0.949125369965	0.342611814391	1	0.323	1.000
+All between Race_standarized	African_American vs. Caucasian/African American	-2.70679410628	0.00683067379682	1	0.007	1.000
+All between Race_standarized	Hispanic_Latino vs. Multi_racial	-2.51668304404	0.0118963752244	1	0.010	1.000
+All between Race_standarized	Hispanic_Latino vs. Asian	3.11868596498	0.00183272067918	0.690935696049	0.002	0.754
+All between Race_standarized	Hispanic_Latino vs. Caucasian	3.88022956223	0.000106228422363	0.0400481152309	0.001	0.377
+All between Race_standarized	Hispanic_Latino vs. Caucasian/African American	-0.37917814193	0.704581551409	1	0.703	1.000
+All between Race_standarized	Multi_racial vs. Asian	-3.65493838832	0.000261509146179	0.0985889481096	0.002	0.754
+All between Race_standarized	Multi_racial vs. Caucasian	-2.36971286916	0.0178617812076	1	0.018	1.000
+All between Race_standarized	Multi_racial vs. Caucasian/African American	-0.385294728932	0.700045612028	1	0.709	1.000
+All between Race_standarized	Asian vs. Caucasian	-1.51992418611	0.128624204688	1	0.133	1.000
+All between Race_standarized	Asian vs. Caucasian/African American	0.245592962873	0.806013631535	1	0.812	1.000
+All between Race_standarized	Caucasian vs. Caucasian/African American	-2.87050420451	0.00412578091804	1	0.006	1.000
+African_American vs. African_American	Hispanic_Latino vs. Hispanic_Latino	4.09036230228	4.89608865009e-05	0.0184582542108	0.001	0.377
+African_American vs. African_American	Multi_racial vs. Multi_racial	0.430754661923	[ 0.66683427]	1	0.635	1.000
+African_American vs. African_American	Asian vs. Asian	1.59920504186	0.110380108627	1	0.102	1.000
+African_American vs. African_American	Caucasian vs. Caucasian	4.19431857343	2.96678276819e-05	0.0111847710361	0.001	0.377
+African_American vs. African_American	NA vs. African_American	-0.665082954799	0.506288932817	1	0.511	1.000
+African_American vs. African_American	NA vs. Hispanic_Latino	-2.30433404822	0.0216056305378	1	0.019	1.000
+African_American vs. African_American	NA vs. Multi_racial	-1.29556095498	0.195729398872	1	0.185	1.000
+African_American vs. African_American	NA vs. Asian	-2.61488980979	0.0091940076211	1	0.015	1.000
+African_American vs. African_American	NA vs. Caucasian	-1.43999514181	0.150461415541	1	0.138	1.000
+African_American vs. African_American	NA vs. Caucasian/African American	1.69378179466	[ 0.09093584]	1	0.086	1.000
+African_American vs. African_American	African_American vs. Hispanic_Latino	1.91097720462	0.0563008294772	1	0.056	1.000
+African_American vs. African_American	African_American vs. Multi_racial	-4.17290539157	3.48763596067e-05	0.0131483875717	0.001	0.377
+African_American vs. African_American	African_American vs. Asian	-1.26449619735	0.206444785404	1	0.202	1.000
+African_American vs. African_American	African_American vs. Caucasian	0.975453652543	0.329484411331	1	0.314	1.000
+African_American vs. African_American	African_American vs. Caucasian/African American	-2.33461965858	0.0199386711691	1	0.020	1.000
+African_American vs. African_American	Hispanic_Latino vs. Multi_racial	-2.1628554599	0.0310038791997	1	0.033	1.000
+African_American vs. African_American	Hispanic_Latino vs. Asian	2.7747918016	0.00569181471583	1	0.006	1.000
+African_American vs. African_American	Hispanic_Latino vs. Caucasian	3.19321314301	0.00145075702058	0.546935396757	0.002	0.754
+African_American vs. African_American	Hispanic_Latino vs. Caucasian/African American	-0.27298346794	0.784976641779	1	0.783	1.000
+African_American vs. African_American	Multi_racial vs. Asian	-3.23461500532	0.00129704539783	0.488986114983	0.003	1.000
+African_American vs. African_American	Multi_racial vs. Caucasian	-1.92317665312	0.0549627903397	1	0.063	1.000
+African_American vs. African_American	Multi_racial vs. Caucasian/African American	-0.325054746773	0.745276698464	1	0.724	1.000
+African_American vs. African_American	Asian vs. Caucasian	-0.952653756285	0.341066036964	1	0.340	1.000
+African_American vs. African_American	Asian vs. Caucasian/African American	0.274174352929	0.784063419407	1	0.789	1.000
+African_American vs. African_American	Caucasian vs. Caucasian/African American	-2.47179837825	0.0137577683197	1	0.017	1.000
+Hispanic_Latino vs. Hispanic_Latino	Multi_racial vs. Multi_racial	0.90467641249	[ 0.36772779]	1	0.423	1.000
+Hispanic_Latino vs. Hispanic_Latino	Asian vs. Asian	-0.62441065303	0.533443887822	1	0.517	1.000
+Hispanic_Latino vs. Hispanic_Latino	Caucasian vs. Caucasian	-2.31521826048	0.0209049403798	1	0.024	1.000
+Hispanic_Latino vs. Hispanic_Latino	NA vs. African_American	-2.67481761475	0.00840142774184	1	0.008	1.000
+Hispanic_Latino vs. Hispanic_Latino	NA vs. Hispanic_Latino	-3.98928843513	0.000115396014034	0.0435042972907	0.001	0.377
+Hispanic_Latino vs. Hispanic_Latino	NA vs. Multi_racial	-1.99259003821	0.0489014914064	1	0.039	1.000
+Hispanic_Latino vs. Hispanic_Latino	NA vs. Asian	-3.97152365174	0.000127202671779	0.0479554072606	0.002	0.754
+Hispanic_Latino vs. Hispanic_Latino	NA vs. Caucasian	-3.82010207605	0.000201505868371	0.0759677123759	0.001	0.377
+Hispanic_Latino vs. Hispanic_Latino	NA vs. Caucasian/African American	2.22369083155	[ 0.02833174]	1	0.048	1.000
+Hispanic_Latino vs. Hispanic_Latino	African_American vs. Hispanic_Latino	-3.15303559187	0.00169888914488	0.640481207621	0.001	0.377
+Hispanic_Latino vs. Hispanic_Latino	African_American vs. Multi_racial	-6.67734293971	3.44695278642e-10	1.29950120048e-07	0.001	0.377
+Hispanic_Latino vs. Hispanic_Latino	African_American vs. Asian	-4.74680833695	2.98980900486e-06	0.00112715799483	0.001	0.377
+Hispanic_Latino vs. Hispanic_Latino	African_American vs. Caucasian	-4.28489977386	1.97562793144e-05	0.00744811730155	0.001	0.377
+Hispanic_Latino vs. Hispanic_Latino	African_American vs. Caucasian/African American	-4.70357727	6.24180703266e-06	0.00235316125131	0.001	0.377
+Hispanic_Latino vs. Hispanic_Latino	Hispanic_Latino vs. Multi_racial	-4.41604585694	2.06300367191e-05	0.00777752384309	0.001	0.377
+Hispanic_Latino vs. Hispanic_Latino	Hispanic_Latino vs. Asian	-1.13795266769	0.256361366081	1	0.235	1.000
+Hispanic_Latino vs. Hispanic_Latino	Hispanic_Latino vs. Caucasian	-2.72395094899	0.00663447505652	1	0.005	1.000
+Hispanic_Latino vs. Hispanic_Latino	Hispanic_Latino vs. Caucasian/African American	-1.97260589138	0.0508790895562	1	0.067	1.000
+Hispanic_Latino vs. Hispanic_Latino	Multi_racial vs. Asian	-5.01910729201	1.83937290063e-06	0.000693443583539	0.001	0.377
+Hispanic_Latino vs. Hispanic_Latino	Multi_racial vs. Caucasian	-4.64584338757	6.7327885795e-06	0.00253826129447	0.001	0.377
+Hispanic_Latino vs. Hispanic_Latino	Multi_racial vs. Caucasian/African American	-0.982498429745	0.328112827825	1	0.337	1.000
+Hispanic_Latino vs. Hispanic_Latino	Asian vs. Caucasian	-4.84407076625	1.86438112949e-06	0.000702871685818	0.001	0.377
+Hispanic_Latino vs. Hispanic_Latino	Asian vs. Caucasian/African American	-0.973021779812	0.332658124726	1	0.319	1.000
+Hispanic_Latino vs. Hispanic_Latino	Caucasian vs. Caucasian/African American	-4.84140502599	3.43073977645e-06	0.00129338889572	0.001	0.377
+Multi_racial vs. Multi_racial	Asian vs. Asian	0.77549850734	[ 0.44478487]	1	0.411	1.000
+Multi_racial vs. Multi_racial	Caucasian vs. Caucasian	0.828575564374	[ 0.40769762]	1	0.417	1.000
+Multi_racial vs. Multi_racial	NA vs. African_American	0.238114545607	[ 0.81335917]	1	0.683	1.000
+Multi_racial vs. Multi_racial	NA vs. Hispanic_Latino	-0.194111689399	[ 0.84887681]	1	0.886	1.000
+Multi_racial vs. Multi_racial	NA vs. Multi_racial	-0.61619373049	[ 0.64843205]	1	0.648	1.000
+Multi_racial vs. Multi_racial	NA vs. Asian	-0.760062949694	[ 0.47203494]	1	0.451	1.000
+Multi_racial vs. Multi_racial	NA vs. Caucasian	0.229980596834	[ 0.8195265]	1	0.905	1.000
+Multi_racial vs. Multi_racial	NA vs. Caucasian/African American	N/A	N/A	N/A	N/A	N/A
+Multi_racial vs. Multi_racial	African_American vs. Hispanic_Latino	0.589545073008	[ 0.55577365]	1	0.511	1.000
+Multi_racial vs. Multi_racial	African_American vs. Multi_racial	-0.130293178215	[ 0.89674962]	1	0.906	1.000
+Multi_racial vs. Multi_racial	African_American vs. Asian	0.343221192473	[ 0.73171485]	1	0.783	1.000
+Multi_racial vs. Multi_racial	African_American vs. Caucasian	0.546136580797	[ 0.58508412]	1	0.576	1.000
+Multi_racial vs. Multi_racial	African_American vs. Caucasian/African American	0.0170880683952	[ 0.98647587]	1	1.000	1.000
+Multi_racial vs. Multi_racial	Hispanic_Latino vs. Multi_racial	0.0374028450678	[ 0.97042009]	1	1.000	1.000
+Multi_racial vs. Multi_racial	Hispanic_Latino vs. Asian	0.688509350599	[ 0.49247216]	1	0.483	1.000
+Multi_racial vs. Multi_racial	Hispanic_Latino vs. Caucasian	0.735908776117	[ 0.4621252]	1	0.478	1.000
+Multi_racial vs. Multi_racial	Hispanic_Latino vs. Caucasian/African American	0.470641749324	[ 0.6451452]	1	0.536	1.000
+Multi_racial vs. Multi_racial	Multi_racial vs. Asian	-0.506147543686	[ 0.62011046]	1	0.638	1.000
+Multi_racial vs. Multi_racial	Multi_racial vs. Caucasian	0.197438089695	[ 0.84408249]	1	0.869	1.000
+Multi_racial vs. Multi_racial	Multi_racial vs. Caucasian/African American	0.689062893611	[ 0.61589683]	1	0.644	1.000
+Multi_racial vs. Multi_racial	Asian vs. Caucasian	0.40640760253	[ 0.68476388]	1	0.727	1.000
+Multi_racial vs. Multi_racial	Asian vs. Caucasian/African American	0.580182630102	[ 0.57997928]	1	0.658	1.000
+Multi_racial vs. Multi_racial	Caucasian vs. Caucasian/African American	-0.00123917936393	[ 0.99901874]	1	0.940	1.000
+Asian vs. Asian	Caucasian vs. Caucasian	-0.493471911347	0.621863752743	1	0.627	1.000
+Asian vs. Asian	NA vs. African_American	-1.48210820691	0.143724655602	1	0.137	1.000
+Asian vs. Asian	NA vs. Hispanic_Latino	-3.13170983204	0.00320175927192	1	0.007	1.000
+Asian vs. Asian	NA vs. Multi_racial	-1.80305530063	0.0821523659055	1	0.078	1.000
+Asian vs. Asian	NA vs. Asian	-3.50000820553	0.00132088576352	0.497973932849	0.001	0.377
+Asian vs. Asian	NA vs. Caucasian	-2.59210171807	0.011963135686	1	0.006	1.000
+Asian vs. Asian	NA vs. Caucasian/African American	2.09889635247	[ 0.04531377]	1	0.093	1.000
+Asian vs. Asian	African_American vs. Hispanic_Latino	-1.05691270733	0.291055756626	1	0.293	1.000
+Asian vs. Asian	African_American vs. Multi_racial	-4.19529011651	6.37572930897e-05	0.0240364994948	0.001	0.377
+Asian vs. Asian	African_American vs. Asian	-2.10307687922	0.0363450471516	1	0.044	1.000
+Asian vs. Asian	African_American vs. Caucasian	-1.55155453226	0.121052880866	1	0.126	1.000
+Asian vs. Asian	African_American vs. Caucasian/African American	-3.45323632771	0.00104105087663	0.392476180491	0.001	0.377
+Asian vs. Asian	Hispanic_Latino vs. Multi_racial	-3.16979319792	0.00247318158779	0.932389458596	0.004	1.000
+Asian vs. Asian	Hispanic_Latino vs. Asian	-0.11922516015	0.905260866576	1	0.902	1.000
+Asian vs. Asian	Hispanic_Latino vs. Caucasian	-0.759490199626	0.447893262832	1	0.439	1.000
+Asian vs. Asian	Hispanic_Latino vs. Caucasian/African American	-1.35819479337	0.181829133719	1	0.182	1.000
+Asian vs. Asian	Multi_racial vs. Asian	-4.11815949059	0.000175044154122	0.065991646104	0.001	0.377
+Asian vs. Asian	Multi_racial vs. Caucasian	-2.66085533632	0.00916600066284	1	0.009	1.000
+Asian vs. Asian	Multi_racial vs. Caucasian/African American	-0.799066569299	0.430978280006	1	0.404	1.000
+Asian vs. Asian	Asian vs. Caucasian	-2.13569030915	0.0335196406198	1	0.037	1.000
+Asian vs. Asian	Asian vs. Caucasian/African American	-0.573379383195	0.570161234699	1	0.575	1.000
+Asian vs. Asian	Caucasian vs. Caucasian/African American	-3.46322030339	0.000990707466118	0.373496714726	0.002	0.754
+Caucasian vs. Caucasian	NA vs. African_American	-2.35513443002	0.0188419347589	1	0.023	1.000
+Caucasian vs. Caucasian	NA vs. Hispanic_Latino	-3.97744637946	7.85681970415e-05	0.0296202102847	0.001	0.377
+Caucasian vs. Caucasian	NA vs. Multi_racial	-2.02900167143	0.042929813866	1	0.058	1.000
+Caucasian vs. Caucasian	NA vs. Asian	-4.08235814909	5.09890961761e-05	0.0192228892584	0.001	0.377
+Caucasian vs. Caucasian	NA vs. Caucasian	-3.4353359082	0.000633182475073	0.238709793103	0.002	0.754
+Caucasian vs. Caucasian	NA vs. Caucasian/African American	2.40687484551	[ 0.01641236]	1	0.007	1.000
+Caucasian vs. Caucasian	African_American vs. Hispanic_Latino	-2.12930475294	0.0334636664834	1	0.032	1.000
+Caucasian vs. Caucasian	African_American vs. Multi_racial	-7.30441626748	8.54994140328e-13	3.22332790904e-10	0.001	0.377
+Caucasian vs. Caucasian	African_American vs. Asian	-5.08217616995	4.62996404416e-07	0.000174549644465	0.001	0.377
+Caucasian vs. Caucasian	African_American vs. Caucasian	-4.15402180202	3.43429182806e-05	0.0129472801918	0.001	0.377
+Caucasian vs. Caucasian	African_American vs. Caucasian/African American	-4.51082090751	7.79214826414e-06	0.00293763989558	0.001	0.377
+Caucasian vs. Caucasian	Hispanic_Latino vs. Multi_racial	-4.23928412902	2.60287208893e-05	0.00981282777526	0.001	0.377
+Caucasian vs. Caucasian	Hispanic_Latino vs. Asian	0.607163369027	0.543945476251	1	0.560	1.000
+Caucasian vs. Caucasian	Hispanic_Latino vs. Caucasian	-0.940450478513	0.347198996355	1	0.358	1.000
+Caucasian vs. Caucasian	Hispanic_Latino vs. Caucasian/African American	-1.4526488848	0.146867685257	1	0.142	1.000
+Caucasian vs. Caucasian	Multi_racial vs. Asian	-5.17782697673	3.10872935179e-07	0.000117199096562	0.001	0.377
+Caucasian vs. Caucasian	Multi_racial vs. Caucasian	-4.57907083013	5.63448171351e-06	0.00212419960599	0.002	0.754
+Caucasian vs. Caucasian	Multi_racial vs. Caucasian/African American	-0.816696001463	0.414448841916	1	0.444	1.000
+Caucasian vs. Caucasian	Asian vs. Caucasian	-4.91776463079	1.05510407612e-06	0.000397774236697	0.001	0.377
+Caucasian vs. Caucasian	Asian vs. Caucasian/African American	-0.473312079033	0.636172713874	1	0.650	1.000
+Caucasian vs. Caucasian	Caucasian vs. Caucasian/African American	-4.71871142202	2.96354252122e-06	0.0011172555305	0.001	0.377
+NA vs. African_American	NA vs. Hispanic_Latino	-1.31978342735	0.193582355032	1	0.204	1.000
+NA vs. African_American	NA vs. Multi_racial	-0.866121437219	0.392871317222	1	0.376	1.000
+NA vs. African_American	NA vs. Asian	-1.72552030094	0.0925585797546	1	0.101	1.000
+NA vs. African_American	NA vs. Caucasian	-0.500051768463	0.61875369128	1	0.624	1.000
+NA vs. African_American	NA vs. Caucasian/African American	1.21652607229	[ 0.23296621]	1	0.292	1.000
+NA vs. African_American	African_American vs. Hispanic_Latino	1.38624829385	0.166276840595	1	0.162	1.000
+NA vs. African_American	African_American vs. Multi_racial	-1.90250032325	0.0601668418981	1	0.064	1.000
+NA vs. African_American	African_American vs. Asian	0.142863516402	0.886498569572	1	0.884	1.000
+NA vs. African_American	African_American vs. Caucasian	1.07604403224	0.282139711706	1	0.277	1.000
+NA vs. African_American	African_American vs. Caucasian/African American	-1.15529149206	0.252404114657	1	0.270	1.000
+NA vs. African_American	Hispanic_Latino vs. Multi_racial	-1.03486943725	0.304882990877	1	0.306	1.000
+NA vs. African_American	Hispanic_Latino vs. Asian	1.88325308951	0.0616019951928	1	0.074	1.000
+NA vs. African_American	Hispanic_Latino vs. Caucasian	1.95312188442	0.0513212490497	1	0.060	1.000
+NA vs. African_American	Hispanic_Latino vs. Caucasian/African American	0.14766087201	0.883270051894	1	0.887	1.000
+NA vs. African_American	Multi_racial vs. Asian	-2.00820707867	0.0505140399039	1	0.054	1.000
+NA vs. African_American	Multi_racial vs. Caucasian	-0.547400395628	0.585348181092	1	0.594	1.000
+NA vs. African_American	Multi_racial vs. Caucasian/African American	-0.116704261263	0.907823792686	1	0.893	1.000
+NA vs. African_American	Asian vs. Caucasian	0.310692479121	0.75624873824	1	0.749	1.000
+NA vs. African_American	Asian vs. Caucasian/African American	0.463270432821	0.645813024695	1	0.629	1.000
+NA vs. African_American	Caucasian vs. Caucasian/African American	-1.20972804784	0.230832806857	1	0.243	1.000
+NA vs. Hispanic_Latino	NA vs. Multi_racial	-0.500703891579	0.623846271002	1	0.593	1.000
+NA vs. Hispanic_Latino	NA vs. Asian	-0.95566101165	0.350116329483	1	0.331	1.000
+NA vs. Hispanic_Latino	NA vs. Caucasian	1.42176612723	0.161696415103	1	0.156	1.000
+NA vs. Hispanic_Latino	NA vs. Caucasian/African American	1.24604739994	[ 0.23319584]	1	0.355	1.000
+NA vs. Hispanic_Latino	African_American vs. Hispanic_Latino	2.95581403289	0.00326781964079	1	0.005	1.000
+NA vs. Hispanic_Latino	African_American vs. Multi_racial	0.214777650034	0.830508493248	1	0.843	1.000
+NA vs. Hispanic_Latino	African_American vs. Asian	1.96566644971	0.0503656990459	1	0.047	1.000
+NA vs. Hispanic_Latino	African_American vs. Caucasian	2.84946229445	0.00446091922842	1	0.003	1.000
+NA vs. Hispanic_Latino	African_American vs. Caucasian/African American	0.78344516973	0.43746987246	1	0.434	1.000
+NA vs. Hispanic_Latino	Hispanic_Latino vs. Multi_racial	0.793515137571	0.431834880217	1	0.432	1.000
+NA vs. Hispanic_Latino	Hispanic_Latino vs. Asian	3.18079323279	0.0018279748718	0.689146526667	0.004	1.000
+NA vs. Hispanic_Latino	Hispanic_Latino vs. Caucasian	3.58745872787	0.000365276986367	0.13770942386	0.001	0.377
+NA vs. Hispanic_Latino	Hispanic_Latino vs. Caucasian/African American	1.82222991062	0.0791178784871	1	0.069	1.000
+NA vs. Hispanic_Latino	Multi_racial vs. Asian	-0.751660454803	0.458312534184	1	0.459	1.000
+NA vs. Hispanic_Latino	Multi_racial vs. Caucasian	1.36000176967	0.177602709777	1	0.178	1.000
+NA vs. Hispanic_Latino	Multi_racial vs. Caucasian/African American	0.59929633014	0.55791928332	1	0.510	1.000
+NA vs. Hispanic_Latino	Asian vs. Caucasian	2.26253408773	0.0244172226341	1	0.024	1.000
+NA vs. Hispanic_Latino	Asian vs. Caucasian/African American	1.87195573055	0.0752071647777	1	0.063	1.000
+NA vs. Hispanic_Latino	Caucasian vs. Caucasian/African American	0.700979415957	0.486772050747	1	0.478	1.000
+NA vs. Multi_racial	NA vs. Asian	-0.0214024628598	0.983448798657	1	0.914	1.000
+NA vs. Multi_racial	NA vs. Caucasian	1.19602930586	0.239959774537	1	0.232	1.000
+NA vs. Multi_racial	NA vs. Caucasian/African American	0.98608839454	[ 0.50445915]	1	0.636	1.000
+NA vs. Multi_racial	African_American vs. Hispanic_Latino	1.57072742023	0.116904898519	1	0.118	1.000
+NA vs. Multi_racial	African_American vs. Multi_racial	0.584102684609	0.561204456635	1	0.585	1.000
+NA vs. Multi_racial	African_American vs. Asian	1.18940035562	0.235384150312	1	0.249	1.000
+NA vs. Multi_racial	African_American vs. Caucasian	1.55481848508	0.120280124647	1	0.135	1.000
+NA vs. Multi_racial	African_American vs. Caucasian/African American	0.991452813793	0.328902662035	1	0.327	1.000
+NA vs. Multi_racial	Hispanic_Latino vs. Multi_racial	0.923884765264	0.362918180681	1	0.354	1.000
+NA vs. Multi_racial	Hispanic_Latino vs. Asian	1.63291747908	0.105107603031	1	0.115	1.000
+NA vs. Multi_racial	Hispanic_Latino vs. Caucasian	1.86023698059	0.0634274248091	1	0.062	1.000
+NA vs. Multi_racial	Hispanic_Latino vs. Caucasian/African American	1.53007158997	0.146812553551	1	0.132	1.000
+NA vs. Multi_racial	Multi_racial vs. Asian	0.184529284383	0.855916870896	1	0.870	1.000
+NA vs. Multi_racial	Multi_racial vs. Caucasian	1.01138604531	0.315417012418	1	0.348	1.000
+NA vs. Multi_racial	Multi_racial vs. Caucasian/African American	1.41501850325	0.292692069473	1	0.351	1.000
+NA vs. Multi_racial	Asian vs. Caucasian	1.34537219475	0.17962557586	1	0.179	1.000
+NA vs. Multi_racial	Asian vs. Caucasian/African American	1.53684618666	0.162885273155	1	0.231	1.000
+NA vs. Multi_racial	Caucasian vs. Caucasian/African American	0.894746855997	0.377213080462	1	0.381	1.000
+NA vs. Asian	NA vs. Caucasian	2.31298012823	0.025949063573	1	0.024	1.000
+NA vs. Asian	NA vs. Caucasian/African American	1.17459827074	[ 0.27856109]	1	0.341	1.000
+NA vs. Asian	African_American vs. Hispanic_Latino	3.16481639738	0.00164913587829	0.621724226116	0.002	0.754
+NA vs. Asian	African_American vs. Multi_racial	1.17667793674	0.243309931519	1	0.251	1.000
+NA vs. Asian	African_American vs. Asian	2.39831423209	0.0171705811876	1	0.019	1.000
+NA vs. Asian	African_American vs. Caucasian	3.13921435133	0.00173937084792	0.655742809667	0.002	0.754
+NA vs. Asian	African_American vs. Caucasian/African American	1.89894769263	0.0651833770432	1	0.050	1.000
+NA vs. Asian	Hispanic_Latino vs. Multi_racial	1.78442336373	0.0827850766203	1	0.089	1.000
+NA vs. Asian	Hispanic_Latino vs. Asian	3.26709180125	0.0014002315634	0.527887299403	0.002	0.754
+NA vs. Asian	Hispanic_Latino vs. Caucasian	3.74419618923	0.00020133528553	0.0759034026448	0.001	0.377
+NA vs. Asian	Hispanic_Latino vs. Caucasian/African American	2.78894962603	0.0109986520417	1	0.012	1.000
+NA vs. Asian	Multi_racial vs. Asian	0.3682271417	0.716223259981	1	0.726	1.000
+NA vs. Asian	Multi_racial vs. Caucasian	2.01820973078	0.0471944687211	1	0.040	1.000
+NA vs. Asian	Multi_racial vs. Caucasian/African American	1.51539233782	0.168140048474	1	0.140	1.000
+NA vs. Asian	Asian vs. Caucasian	2.71010436519	0.00714432118868	1	0.008	1.000
+NA vs. Asian	Asian vs. Caucasian/African American	2.74324146976	0.0158539470518	1	0.015	1.000
+NA vs. Asian	Caucasian vs. Caucasian/African American	1.73570777579	0.0903142608534	1	0.096	1.000
+NA vs. Caucasian	NA vs. Caucasian/African American	1.85253943519	[ 0.07291052]	1	0.025	1.000
+NA vs. Caucasian	African_American vs. Hispanic_Latino	2.26433297433	0.0239710436974	1	0.034	1.000
+NA vs. Caucasian	African_American vs. Multi_racial	-1.6440151817	0.103444160762	1	0.097	1.000
+NA vs. Caucasian	African_American vs. Asian	0.895010690322	0.371528764384	1	0.389	1.000
+NA vs. Caucasian	African_American vs. Caucasian	1.97213707047	0.0488396867738	1	0.053	1.000
+NA vs. Caucasian	African_American vs. Caucasian/African American	-0.927941500476	0.35692440495	1	0.352	1.000
+NA vs. Caucasian	Hispanic_Latino vs. Multi_racial	-0.779948124992	0.438388807928	1	0.455	1.000
+NA vs. Caucasian	Hispanic_Latino vs. Asian	2.80762207129	0.00564581085824	1	0.006	1.000
+NA vs. Caucasian	Hispanic_Latino vs. Caucasian	2.96462882503	0.00316383157103	1	0.003	1.000
+NA vs. Caucasian	Hispanic_Latino vs. Caucasian/African American	0.767878898313	0.446400034193	1	0.441	1.000
+NA vs. Caucasian	Multi_racial vs. Asian	-2.4525100364	0.0178724673337	1	0.022	1.000
+NA vs. Caucasian	Multi_racial vs. Caucasian	0.0290581464152	0.976876129656	1	0.971	1.000
+NA vs. Caucasian	Multi_racial vs. Caucasian/African American	0.0397144278886	0.968553089638	1	0.960	1.000
+NA vs. Caucasian	Asian vs. Caucasian	1.14627094481	0.252584518544	1	0.228	1.000
+NA vs. Caucasian	Asian vs. Caucasian/African American	1.13350611042	0.263750001184	1	0.278	1.000
+NA vs. Caucasian	Caucasian vs. Caucasian/African American	-0.979634191217	0.330844090508	1	0.350	1.000
+NA vs. Caucasian/African American	African_American vs. Hispanic_Latino	1.9460566549	[ 0.05223236]	1	0.071	1.000
+NA vs. Caucasian/African American	African_American vs. Multi_racial	1.28673121972	[ 0.20289609]	1	0.246	1.000
+NA vs. Caucasian/African American	African_American vs. Asian	1.63952056019	[ 0.10233795]	1	0.084	1.000
+NA vs. Caucasian/African American	African_American vs. Caucasian	1.98554633536	[ 0.04733466]	1	0.041	1.000
+NA vs. Caucasian/African American	African_American vs. Caucasian/African American	1.81926561711	[ 0.07854203]	1	0.070	1.000
+NA vs. Caucasian/African American	Hispanic_Latino vs. Multi_racial	1.6575302974	[ 0.10819286]	1	0.133	1.000
+NA vs. Caucasian/African American	Hispanic_Latino vs. Asian	1.90528160997	[ 0.05915653]	1	0.058	1.000
+NA vs. Caucasian/African American	Hispanic_Latino vs. Caucasian	2.24469416731	[ 0.02521649]	1	0.023	1.000
+NA vs. Caucasian/African American	Hispanic_Latino vs. Caucasian/African American	2.12308628193	[ 0.05205786]	1	0.070	1.000
+NA vs. Caucasian/African American	Multi_racial vs. Asian	1.15651149596	[ 0.26555952]	1	0.195	1.000
+NA vs. Caucasian/African American	Multi_racial vs. Caucasian	1.54993885446	[ 0.12586724]	1	0.142	1.000
+NA vs. Caucasian/African American	Multi_racial vs. Caucasian/African American	5.02122386794	[ 0.12514835]	1	0.314	1.000
+NA vs. Caucasian/African American	Asian vs. Caucasian	1.82570398855	[ 0.06899529]	1	0.060	1.000
+NA vs. Caucasian/African American	Asian vs. Caucasian/African American	1.96753156616	[ 0.08981734]	1	0.104	1.000
+NA vs. Caucasian/African American	Caucasian vs. Caucasian/African American	1.66411696397	[ 0.105558]	1	0.154	1.000
+African_American vs. Hispanic_Latino	African_American vs. Multi_racial	-5.40330787967	9.81348843718e-08	3.69968514082e-05	0.001	0.377
+African_American vs. Hispanic_Latino	African_American vs. Asian	-2.93286003919	0.00346312830814	1	0.005	1.000
+African_American vs. Hispanic_Latino	African_American vs. Caucasian	-1.42349379213	0.154792257653	1	0.156	1.000
+African_American vs. Hispanic_Latino	African_American vs. Caucasian/African American	-3.20600727082	0.00143029272893	0.539220358805	0.002	0.754
+African_American vs. Hispanic_Latino	Hispanic_Latino vs. Multi_racial	-2.99685131047	0.00286124035526	1	0.004	1.000
+African_American vs. Hispanic_Latino	Hispanic_Latino vs. Asian	1.70672225401	0.0883928351842	1	0.097	1.000
+African_American vs. Hispanic_Latino	Hispanic_Latino vs. Caucasian	1.1953412579	0.232240557887	1	0.227	1.000
+African_American vs. Hispanic_Latino	Hispanic_Latino vs. Caucasian/African American	-0.779814716544	0.435874147447	1	0.413	1.000
+African_American vs. Hispanic_Latino	Multi_racial vs. Asian	-3.97138572841	8.20829914767e-05	0.0309452877867	0.001	0.377
+African_American vs. Hispanic_Latino	Multi_racial vs. Caucasian	-3.02599042893	0.00259498306679	0.97830861618	0.002	0.754
+African_American vs. Hispanic_Latino	Multi_racial vs. Caucasian/African American	-0.528573257165	0.597345821954	1	0.591	1.000
+African_American vs. Hispanic_Latino	Asian vs. Caucasian	-2.69592524441	0.00717668791612	1	0.007	1.000
+African_American vs. Hispanic_Latino	Asian vs. Caucasian/African American	-0.0625702269222	0.950134462867	1	0.947	1.000
+African_American vs. Hispanic_Latino	Caucasian vs. Caucasian/African American	-3.36979985212	0.00080898110974	0.304985878372	0.002	0.754
+African_American vs. Multi_racial	African_American vs. Asian	3.37346358491	0.00083407094783	0.314444747332	0.002	0.754
+African_American vs. Multi_racial	African_American vs. Caucasian	5.27495675479	1.58567632802e-07	5.97799975663e-05	0.001	0.377
+African_American vs. Multi_racial	African_American vs. Caucasian/African American	0.71685133296	0.475243244401	1	0.476	1.000
+African_American vs. Multi_racial	Hispanic_Latino vs. Multi_racial	0.773293318712	0.441331186844	1	0.454	1.000
+African_American vs. Multi_racial	Hispanic_Latino vs. Asian	5.45146272558	1.60955286654e-07	6.06801430687e-05	0.001	0.377
+African_American vs. Multi_racial	Hispanic_Latino vs. Caucasian	6.55931948238	1.21088472582e-10	4.56503541635e-08	0.001	0.377
+African_American vs. Multi_racial	Hispanic_Latino vs. Caucasian/African American	1.92889153347	0.0574295674067	1	0.051	1.000
+African_American vs. Multi_racial	Multi_racial vs. Asian	-1.11894021683	0.266599717115	1	0.285	1.000
+African_American vs. Multi_racial	Multi_racial vs. Caucasian	1.90316045438	0.0592306264967	1	0.073	1.000
+African_American vs. Multi_racial	Multi_racial vs. Caucasian/African American	0.502841687218	0.616801649057	1	0.633	1.000
+African_American vs. Multi_racial	Asian vs. Caucasian	3.87485240117	0.000128415506029	0.0484126457728	0.001	0.377
+African_American vs. Multi_racial	Asian vs. Caucasian/African American	1.94837449431	0.055379901707	1	0.054	1.000
+African_American vs. Multi_racial	Caucasian vs. Caucasian/African American	0.646282723509	0.519638315762	1	0.527	1.000
+African_American vs. Asian	African_American vs. Caucasian	2.32659052675	0.0201353182875	1	0.028	1.000
+African_American vs. Asian	African_American vs. Caucasian/African American	-1.81798087235	0.0701131601669	1	0.085	1.000
+African_American vs. Asian	Hispanic_Latino vs. Multi_racial	-1.65899550794	0.098220593681	1	0.100	1.000
+African_American vs. Asian	Hispanic_Latino vs. Asian	3.46375649692	0.000594392959175	0.224086145609	0.001	0.377
+African_American vs. Asian	Hispanic_Latino vs. Caucasian	4.15892826871	3.56002654385e-05	0.0134213000703	0.001	0.377
+African_American vs. Asian	Hispanic_Latino vs. Caucasian/African American	0.0990962668222	0.921135642292	1	0.926	1.000
+African_American vs. Asian	Multi_racial vs. Asian	-2.90336629463	0.00399671465156	1	0.003	1.000
+African_American vs. Asian	Multi_racial vs. Caucasian	-1.14180509002	0.254383417835	1	0.278	1.000
+African_American vs. Asian	Multi_racial vs. Caucasian/African American	-0.193776928486	0.846504219181	1	0.831	1.000
+African_American vs. Asian	Asian vs. Caucasian	0.336469670329	0.736650909612	1	0.758	1.000
+African_American vs. Asian	Asian vs. Caucasian/African American	0.556668986985	0.578228776887	1	0.557	1.000
+African_American vs. Asian	Caucasian vs. Caucasian/African American	-1.93519934415	0.0539447078021	1	0.057	1.000
+African_American vs. Caucasian	African_American vs. Caucasian/African American	-2.98603675051	0.00288773138449	1	0.004	1.000
+African_American vs. Caucasian	Hispanic_Latino vs. Multi_racial	-2.781145717	0.00550790584094	1	0.005	1.000
+African_American vs. Caucasian	Hispanic_Latino vs. Asian	2.73901290334	0.00625318631259	1	0.006	1.000
+African_American vs. Caucasian	Hispanic_Latino vs. Caucasian	2.95007375235	0.00322326130682	1	0.004	1.000
+African_American vs. Caucasian	Hispanic_Latino vs. Caucasian/African American	-0.524990297181	0.599695630456	1	0.587	1.000
+African_American vs. Caucasian	Multi_racial vs. Asian	-3.91829726602	9.46677515004e-05	0.0356897423156	0.002	0.754
+African_American vs. Caucasian	Multi_racial vs. Caucasian	-2.68021951379	0.00746216360508	1	0.008	1.000
+African_American vs. Caucasian	Multi_racial vs. Caucasian/African American	-0.448556181706	0.653841166433	1	0.644	1.000
+African_American vs. Caucasian	Asian vs. Caucasian	-1.9720761954	0.0488035644585	1	0.070	1.000
+African_American vs. Caucasian	Asian vs. Caucasian/African American	0.157392416631	0.874964632802	1	0.869	1.000
+African_American vs. Caucasian	Caucasian vs. Caucasian/African American	-3.1562169779	0.00164093831919	0.618633746336	0.001	0.377
+African_American vs. Caucasian/African American	Hispanic_Latino vs. Multi_racial	0.0928435517673	0.926337170107	1	0.926	1.000
+African_American vs. Caucasian/African American	Hispanic_Latino vs. Asian	3.63107154411	0.000386710996947	0.145790045849	0.002	0.754
+African_American vs. Caucasian/African American	Hispanic_Latino vs. Caucasian	4.00034439684	7.20719919776e-05	0.0271711409755	0.001	0.377
+African_American vs. Caucasian/African American	Hispanic_Latino vs. Caucasian/African American	1.57401847895	0.122488464356	1	0.129	1.000
+African_American vs. Caucasian/African American	Multi_racial vs. Asian	-1.83473704704	0.0730163418053	1	0.071	1.000
+African_American vs. Caucasian/African American	Multi_racial vs. Caucasian	0.935993533396	0.351577320849	1	0.333	1.000
+African_American vs. Caucasian/African American	Multi_racial vs. Caucasian/African American	0.380849431288	0.705831723252	1	0.708	1.000
+African_American vs. Caucasian/African American	Asian vs. Caucasian	2.15068247131	0.0322946473785	1	0.028	1.000
+African_American vs. Caucasian/African American	Asian vs. Caucasian/African American	1.80363427214	0.079221287658	1	0.069	1.000
+African_American vs. Caucasian/African American	Caucasian vs. Caucasian/African American	-0.0728043071475	0.942188899724	1	0.946	1.000
+Hispanic_Latino vs. Multi_racial	Hispanic_Latino vs. Asian	3.4021412647	0.000860067914473	0.324245603756	0.001	0.377
+Hispanic_Latino vs. Multi_racial	Hispanic_Latino vs. Caucasian	3.75153783159	0.000194838360952	0.073454062079	0.001	0.377
+Hispanic_Latino vs. Multi_racial	Hispanic_Latino vs. Caucasian/African American	1.37860150789	0.175148030854	1	0.162	1.000
+Hispanic_Latino vs. Multi_racial	Multi_racial vs. Asian	-1.76553040916	0.0844136195779	1	0.080	1.000
+Hispanic_Latino vs. Multi_racial	Multi_racial vs. Caucasian	0.803155578025	0.423868890378	1	0.399	1.000
+Hispanic_Latino vs. Multi_racial	Multi_racial vs. Caucasian/African American	0.311356772543	0.757682817357	1	0.770	1.000
+Hispanic_Latino vs. Multi_racial	Asian vs. Caucasian	1.97017121422	0.0497382042045	1	0.058	1.000
+Hispanic_Latino vs. Multi_racial	Asian vs. Caucasian/African American	1.59656925886	0.119103936595	1	0.124	1.000
+Hispanic_Latino vs. Multi_racial	Caucasian vs. Caucasian/African American	-0.158805640271	0.874338166147	1	0.876	1.000
+Hispanic_Latino vs. Asian	Hispanic_Latino vs. Caucasian	-1.10842770706	0.268101460648	1	0.283	1.000
+Hispanic_Latino vs. Asian	Hispanic_Latino vs. Caucasian/African American	-1.28729093401	0.200228596591	1	0.206	1.000
+Hispanic_Latino vs. Asian	Multi_racial vs. Asian	-4.10999038411	6.85504427319e-05	0.0258435169099	0.001	0.377
+Hispanic_Latino vs. Asian	Multi_racial vs. Caucasian	-3.50563632289	0.000570836450824	0.215205341961	0.002	0.754
+Hispanic_Latino vs. Asian	Multi_racial vs. Caucasian/African American	-0.699889165767	0.485351124775	1	0.504	1.000
+Hispanic_Latino vs. Asian	Asian vs. Caucasian	-3.44508266342	0.00063289712753	0.238602217079	0.001	0.377
+Hispanic_Latino vs. Asian	Asian vs. Caucasian/African American	-0.498385989726	0.619080874276	1	0.594	1.000
+Hispanic_Latino vs. Asian	Caucasian vs. Caucasian/African American	-3.76354192741	0.000238756515133	0.090011206205	0.001	0.377
+Hispanic_Latino vs. Caucasian	Hispanic_Latino vs. Caucasian/African American	-1.17333607295	0.241195140012	1	0.267	1.000
+Hispanic_Latino vs. Caucasian	Multi_racial vs. Asian	-4.72733822688	2.9274803933e-06	0.00110366010827	0.001	0.377
+Hispanic_Latino vs. Caucasian	Multi_racial vs. Caucasian	-3.94599985282	8.92799022262e-05	0.0336585231393	0.002	0.754
+Hispanic_Latino vs. Caucasian	Multi_racial vs. Caucasian/African American	-0.701290843789	0.483441390029	1	0.477	1.000
+Hispanic_Latino vs. Caucasian	Asian vs. Caucasian	-3.96396355484	8.04843584559e-05	0.0303426031379	0.001	0.377
+Hispanic_Latino vs. Caucasian	Asian vs. Caucasian/African American	-0.294701781693	0.768340227185	1	0.758	1.000
+Hispanic_Latino vs. Caucasian	Caucasian vs. Caucasian/African American	-4.19093977641	3.24352484567e-05	0.0122280886682	0.001	0.377
+Hispanic_Latino vs. Caucasian/African American	Multi_racial vs. Asian	-2.80412952113	0.00890858217543	1	0.011	1.000
+Hispanic_Latino vs. Caucasian/African American	Multi_racial vs. Caucasian	-0.684900939383	0.495361680793	1	0.504	1.000
+Hispanic_Latino vs. Caucasian/African American	Multi_racial vs. Caucasian/African American	-0.294032611896	0.772762575422	1	0.758	1.000
+Hispanic_Latino vs. Caucasian/African American	Asian vs. Caucasian	0.00825929257932	0.993415891209	1	0.993	1.000
+Hispanic_Latino vs. Caucasian/African American	Asian vs. Caucasian/African American	0.492394293978	0.627549122284	1	0.642	1.000
+Hispanic_Latino vs. Caucasian/African American	Caucasian vs. Caucasian/African American	-1.56123766411	0.125176647507	1	0.127	1.000
+Multi_racial vs. Asian	Multi_racial vs. Caucasian	2.2867390929	0.0247891976421	1	0.032	1.000
+Multi_racial vs. Asian	Multi_racial vs. Caucasian/African American	1.09004585497	0.291838056955	1	0.286	1.000
+Multi_racial vs. Asian	Asian vs. Caucasian	3.29239273742	0.00111813764096	0.42153789064	0.004	1.000
+Multi_racial vs. Asian	Asian vs. Caucasian/African American	2.71046772076	0.0127747702231	1	0.016	1.000
+Multi_racial vs. Asian	Caucasian vs. Caucasian/African American	1.69994690185	0.0956130722795	1	0.091	1.000
+Multi_racial vs. Caucasian	Multi_racial vs. Caucasian/African American	0.0250067398649	0.98012282792	1	0.975	1.000
+Multi_racial vs. Caucasian	Asian vs. Caucasian	1.45921272453	0.145435268529	1	0.166	1.000
+Multi_racial vs. Caucasian	Asian vs. Caucasian/African American	0.998999854107	0.321050311315	1	0.325	1.000
+Multi_racial vs. Caucasian	Caucasian vs. Caucasian/African American	-1.01191042433	0.31402305892	1	0.321	1.000
+Multi_racial vs. Caucasian/African American	Asian vs. Caucasian	0.255458306957	0.798562207429	1	0.817	1.000
+Multi_racial vs. Caucasian/African American	Asian vs. Caucasian/African American	0.512832303417	0.621925371554	1	0.675	1.000
+Multi_racial vs. Caucasian/African American	Caucasian vs. Caucasian/African American	-0.376099104637	0.709179900091	1	0.699	1.000
+Asian vs. Caucasian	Asian vs. Caucasian/African American	0.523077120285	0.601337241206	1	0.630	1.000
+Asian vs. Caucasian	Caucasian vs. Caucasian/African American	-2.28054857531	0.0232671211799	1	0.022	1.000
+Asian vs. Caucasian/African American	Caucasian vs. Caucasian/African American	-1.75321292687	0.0872268019712	1	0.088	1.000

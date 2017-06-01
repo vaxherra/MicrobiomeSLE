@@ -1,0 +1,17 @@
+# Constructed from biom file
+#OTU ID	Control	SLE
+d:Archaea;p:Euryarchaeota	0.00110302756573	0.000539060517938
+d:Bacteria;Other	0.00384229343602	0.00169237688091
+d:Bacteria;p:Actinobacteria	0.0186287305574	0.047184746403
+d:Bacteria;p:Bacteroidetes	0.378390134229	0.344916627181
+d:Bacteria;p:Cyanobacteria/Chloroplast	4.65650973332e-05	5.51111051126e-05
+d:Bacteria;p:Firmicutes	0.54157280749	0.478430429299
+d:Bacteria;p:Fusobacteria	0.00154418475954	0.00950305047197
+d:Bacteria;p:Gemmatimonadetes	0.0	9.64042655031e-07
+d:Bacteria;p:Lentisphaerae	5.65241065894e-06	2.82785845476e-05
+d:Bacteria;p:Parcubacteria	2.15329929864e-06	0.0
+d:Bacteria;p:Proteobacteria	0.0325769959268	0.0595447372831
+d:Bacteria;p:Spirochaetes	1.07664964932e-06	0.0
+d:Bacteria;p:Synergistetes	6.5944791021e-05	0.000159549059408
+d:Bacteria;p:Tenericutes	8.45169974718e-05	8.03368879193e-07
+d:Bacteria;p:Verrucomicrobia	0.0221359167901	0.057944265802

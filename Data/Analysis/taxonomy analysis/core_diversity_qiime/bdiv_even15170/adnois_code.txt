@@ -1,0 +1,4 @@
+#!
+
+compare_categories.py --method adonis -i unweighted_unifrac_dm.txt -m mapping_03.txt -c Status -o adonis_out_unweighted -n 999
+compare_categories.py --method adonis -i weighted_unifrac_dm.txt -m mapping_03.txt -c Status -o adonis_out_weighted -n 999

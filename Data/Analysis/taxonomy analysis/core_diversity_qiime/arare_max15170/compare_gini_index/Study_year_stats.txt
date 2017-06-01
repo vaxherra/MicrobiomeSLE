@@ -1,0 +1,2 @@
+Group1	Group2	Group1 mean	Group1 std	Group2 mean	Group2 std	t stat	p-value
+2016_study	2014_study	0.989213020292	0.00614211366566	0.985341638951	0.00625991128858	2.71401335803	0.008

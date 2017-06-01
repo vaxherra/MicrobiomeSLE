@@ -1,0 +1,9 @@
+pick_otus:otu_picking_method uclust_ref
+parallel_assign_taxonomy_uclust:id_to_taxonomy_fp /Volumes/acbm/data/scratch/RobertKwapich/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
+assign_taxonomy:id_to_taxonomy_fp /Volumes/acbm/data/scratch/RobertKwapich/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
+assign_taxonomy:reference_seqs_fp /Volumes/acbm/data/scratch/RobertKwapich/gg_13_8_otus/rep_set/97_otus.fasta
+parallel_align_seqs_pynast:template_fp /Volumes/acbm/data/scratch/RobertKwapich/gg_13_8_otus/rep_set_aligned/85_otus.fasta
+summarize_taxa:md_as_string False
+plot_taxa_summary:chart_type bar
+beta_diversity:metrics unweighted_unifrac,weighted_unifrac
+alpha_diversity:metrics PD_whole_tree,chao1,observed_species,berger_parker_d,dominance,doubles,equitability,fisher_alpha,gini_index,shannon,simpson,simpson_e,simpson_reciprocal,singles,strong

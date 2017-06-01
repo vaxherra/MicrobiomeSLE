@@ -1,0 +1,17 @@
+#!/bin/bash
+#$ -V
+#$ -cwd
+#$ -pe threaded 1
+#$ -o "adonis_log.txt"
+#$ -j y
+#$ -l mem_free=70,h_vmem=10G
+module load qiime/1.9.1
+
+#compare_categories.py --method adonis -i unweighted_unifrac_dm.txt -m mapping_03.txt -c Status -o adonis_out_unweighted -n 999
+#compare_categories.py --method adonis -i weighted_unifrac_dm.txt -m mapping_03.txt -c Status -o adonis_out_weighted -n 999
+
+compare_categories.py --method anosim -i unweighted_unifrac_dm.txt -m mapping_03.txt -c Status -o anosim_out_unweighted -n 999
+compare_categories.py --method anosim -i weighted_unifrac_dm.txt -m mapping_03.txt -c Status -o anosim_out_weighted -n 999
+
+
+# qsub -N adonis adnois_code.pbs

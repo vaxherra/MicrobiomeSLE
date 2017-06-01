@@ -1,0 +1,15 @@
+#!/bin/bash
+#$ -V
+#$ -cwd
+#$ -o group_significance_log.txt
+#$ -j y
+#$ -l mem_free=5G,h_vmem=10G
+#$ -pe threaded 1
+
+group_significance.py -i table_mc15170_sorted_L2.txt -m mapping_03.txt -s kruskal_wallis -o gr_lvl2.txt -c Status
+group_significance.py -i table_mc15170_sorted_L3.txt -m mapping_03.txt -s kruskal_wallis -o gr_lvl3.txt -c Status
+group_significance.py -i table_mc15170_sorted_L4.txt -m mapping_03.txt -s kruskal_wallis -o gr_lvl4.txt -c Status
+group_significance.py -i table_mc15170_sorted_L5.txt -m mapping_03.txt -s kruskal_wallis -o gr_lvl5.txt -c Status
+group_significance.py -i table_mc15170_sorted_L6.txt -m mapping_03.txt -s kruskal_wallis -o gr_lvl6.txt -c Status
+
+#qsub -N group_significance group_significance.pbs

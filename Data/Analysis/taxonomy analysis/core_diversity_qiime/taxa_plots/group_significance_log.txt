@@ -1,0 +1,7 @@
+Remember to login into o3!
+o3-login -t LDAP_ss-prj-gaffney-metagenome
+Warning: No metadata in biom table. Won't alter calculations.
+Warning: No metadata in biom table. Won't alter calculations.
+Warning: No metadata in biom table. Won't alter calculations.
+Warning: No metadata in biom table. Won't alter calculations.
+Warning: No metadata in biom table. Won't alter calculations.

@@ -1,0 +1,18 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within Study_year	All between Study_year	-17.229341056	2.27832131771e-64	2.27832131771e-63	0.001	0.010
+All within Study_year	2016_study vs. 2016_study	-0.370614172797	0.710941845659	1	0.714	1.000
+All within Study_year	2014_study vs. 2014_study	1.21888969198	0.222987116829	1	0.218	1.000
+All within Study_year	2016_study vs. 2014_study	-17.229341056	2.27832131771e-64	2.27832131771e-63	0.001	0.010
+All between Study_year	2016_study vs. 2016_study	16.0388074834	0.0	0.0	0.001	0.010
+All between Study_year	2014_study vs. 2014_study	10.7766267012	0.0	0.0	0.001	0.010
+All between Study_year	2016_study vs. 2014_study	0.0	1.0	1	1.000	1.000
+2016_study vs. 2016_study	2014_study vs. 2014_study	1.36850400985	0.171277626549	1	0.168	1.000
+2016_study vs. 2016_study	2016_study vs. 2014_study	-16.0388074834	4.01272840105e-56	4.01272840105e-55	0.001	0.010
+2014_study vs. 2014_study	2016_study vs. 2014_study	-10.7766267012	2.09855753634e-26	2.09855753634e-25	0.001	0.010

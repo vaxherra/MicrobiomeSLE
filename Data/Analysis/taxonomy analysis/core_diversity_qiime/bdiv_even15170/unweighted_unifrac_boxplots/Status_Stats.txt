@@ -1,0 +1,18 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within Status	All between Status	-7.327142122	2.79602846889e-13	2.79602846889e-12	0.001	0.010
+All within Status	Control vs. Control	1.20791282463	0.227182085376	1	0.218	1.000
+All within Status	SLE vs. SLE	-0.545904298371	0.58516103783	1	0.587	1.000
+All within Status	Control vs. SLE	-7.327142122	2.79602846889e-13	2.79602846889e-12	0.001	0.010
+All between Status	Control vs. Control	5.40846778148	6.97354820556e-08	6.97354820556e-07	0.001	0.010
+All between Status	SLE vs. SLE	6.54072739998	6.94211355068e-11	6.94211355068e-10	0.001	0.010
+All between Status	Control vs. SLE	0.0	1.0	1	1.000	1.000
+Control vs. Control	SLE vs. SLE	-1.54655677769	0.122106313425	1	0.127	1.000
+Control vs. Control	Control vs. SLE	-5.40846778148	6.97354820836e-08	6.97354820836e-07	0.001	0.010
+SLE vs. SLE	Control vs. SLE	-6.54072739998	6.94211589192e-11	6.94211589192e-10	0.001	0.010

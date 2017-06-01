@@ -1,0 +1,2 @@
+Group1	Group2	Group1 mean	Group1 std	Group2 mean	Group2 std	t stat	p-value
+Control	SLE	14.5943701373	9.37493499565	11.5665327617	7.07682624186	1.72753832828	0.082

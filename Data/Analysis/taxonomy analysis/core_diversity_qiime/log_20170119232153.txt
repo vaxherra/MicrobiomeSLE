@@ -1,0 +1,562 @@
+Logging started at 23:21:53 on 19 Jan 2017
+QIIME version: 1.9.1
+
+qiime_config values:
+blastmat_dir	/usr/local/analysis/ncbi_blast/2.2.22/data/
+pick_otus_reference_seqs_fp	/usr/local/analysis/qiime/1.9.1/lib/python2.7/dist-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+python_exe_fp	python
+sc_queue	all.q
+pynast_template_alignment_fp	/Volumes/acbm/data/scratch/RobertKwapich/gg_13_8_otus/rep_set_aligned/85_otus.fasta
+cluster_jobs_fp	start_parallel_jobs.py
+assign_taxonomy_reference_seqs_fp	/usr/local/analysis/qiime/1.9.1/lib/python2.7/dist-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+torque_queue	friendlyq
+jobs_to_start	1
+cloud_environment	False
+qiime_scripts_dir	/usr/local/analysis/qiime/1.9.1/bin
+denoiser_min_per_core	50
+assign_taxonomy_id_to_taxonomy_fp	/usr/local/analysis/qiime/1.9.1/lib/python2.7/dist-packages/qiime_default_reference/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
+temp_dir	/tmp/
+blastall_fp	blastall
+seconds_to_sleep	2
+
+parameter file values:
+alpha_diversity:metrics	PD_whole_tree,chao1,observed_species,berger_parker_d,dominance,doubles,equitability,fisher_alpha,gini_index,shannon,simpson,simpson_e,simpson_reciprocal,singles,strong
+assign_taxonomy:reference_seqs_fp	/Volumes/acbm/data/scratch/RobertKwapich/gg_13_8_otus/rep_set/97_otus.fasta
+assign_taxonomy:id_to_taxonomy_fp	/Volumes/acbm/data/scratch/RobertKwapich/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
+beta_diversity:metrics	unweighted_unifrac,weighted_unifrac
+pick_otus:otu_picking_method	uclust_ref
+plot_taxa_summary:chart_type	bar
+parallel_assign_taxonomy_uclust:id_to_taxonomy_fp	/Volumes/acbm/data/scratch/RobertKwapich/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
+parallel_align_seqs_pynast:template_fp	/Volumes/acbm/data/scratch/RobertKwapich/gg_13_8_otus/rep_set_aligned/85_otus.fasta
+parallel:jobs_to_start	12
+
+Input file md5 sums:
+/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/otutab_uncross_tax_rdp.txt: 561cd2606c1c8ce4497ebd5ac304574f
+/Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt: 2248fc080d7634cc80b29bc176793130
+/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/rep_set.tre: 1dc5920b91f2a6e944d72366312a2a69
+
+Executing commands.
+
+# Generate BIOM table summary command 
+biom summarize-table -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/otutab_uncross_tax_rdp.txt -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/biom_table_summary.txt 
+
+Stdout:
+
+Stderr:
+
+# Filter low sequence count samples from table (minimum sequence count: 15170) command 
+filter_samples_from_otu_table.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/otutab_uncross_tax_rdp.txt -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_mc15170.biom -n 15170
+
+Stdout:
+
+Stderr:
+
+# Rarify the OTU table to 15170 sequences/sample command 
+single_rarefaction.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_mc15170.biom -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_even15170.biom -d 15170
+
+Stdout:
+
+Stderr:
+
+Executing commands.
+
+# Beta Diversity (unweighted_unifrac) command 
+parallel_beta_diversity.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_even15170.biom -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170/ --metrics unweighted_unifrac -T  -t /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/rep_set.tre --jobs_to_start 12
+
+Stdout:
+
+Stderr:
+
+# Rename distance matrix (unweighted_unifrac) command 
+mv /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//unweighted_unifrac_table_even15170.txt /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//unweighted_unifrac_dm.txt
+
+Stdout:
+
+Stderr:
+
+# Principal coordinates (unweighted_unifrac) command 
+principal_coordinates.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//unweighted_unifrac_dm.txt -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//unweighted_unifrac_pc.txt 
+
+Stdout:
+
+Stderr:
+/usr/local/analysis/qiime/1.9.1/lib/python2.7/dist-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.00171051839586 and the largest is 2.48118109564.
+  RuntimeWarning
+
+# Make emperor plots, unweighted_unifrac) command 
+make_emperor.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//unweighted_unifrac_pc.txt -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//unweighted_unifrac_emperor_pcoa_plot/ -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt 
+
+Stdout:
+
+Stderr:
+
+# Beta Diversity (weighted_unifrac) command 
+parallel_beta_diversity.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_even15170.biom -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170/ --metrics weighted_unifrac -T  -t /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/rep_set.tre --jobs_to_start 12
+
+Stdout:
+
+Stderr:
+
+# Rename distance matrix (weighted_unifrac) command 
+mv /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//weighted_unifrac_table_even15170.txt /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//weighted_unifrac_dm.txt
+
+Stdout:
+
+Stderr:
+
+# Principal coordinates (weighted_unifrac) command 
+principal_coordinates.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//weighted_unifrac_dm.txt -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//weighted_unifrac_pc.txt 
+
+Stdout:
+
+Stderr:
+/usr/local/analysis/qiime/1.9.1/lib/python2.7/dist-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.185983862161 and the largest is 4.97721549111.
+  RuntimeWarning
+
+# Make emperor plots, weighted_unifrac) command 
+make_emperor.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//weighted_unifrac_pc.txt -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//weighted_unifrac_emperor_pcoa_plot/ -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt 
+
+Stdout:
+
+Stderr:
+
+Executing commands.
+
+# Alpha rarefaction command 
+parallel_multiple_rarefactions.py -T -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_mc15170.biom -m 10 -x 15170 -s 1516 -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//rarefaction/  --jobs_to_start 12
+
+Stdout:
+
+Stderr:
+
+# Alpha diversity on rarefied OTU tables command 
+parallel_alpha_diversity.py -T -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//rarefaction/ -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div/ --metrics PD_whole_tree,chao1,observed_species,berger_parker_d,dominance,doubles,equitability,fisher_alpha,gini_index,shannon,simpson,simpson_e,simpson_reciprocal,singles,strong -t /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/rep_set.tre --jobs_to_start 12
+
+Stdout:
+
+Stderr:
+
+# Collate alpha command 
+collate_alpha.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div/ -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div_collated/ 
+
+Stdout:
+
+Stderr:
+
+# Removing intermediate files command 
+rm -r /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//rarefaction/ /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div/
+
+Stdout:
+
+Stderr:
+
+# Rarefaction plot: All metrics command 
+make_rarefaction_plots.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div_collated/ -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_rarefaction_plots/ 
+
+Stdout:
+
+Stderr:
+/usr/local/lib/python2.7/dist-packages/matplotlib-1.1.1-py2.7-linux-x86_64.egg/matplotlib/collections.py:446: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == 'face':
+
+Executing commands.
+
+# Sort OTU Table command 
+sort_otu_table.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_mc15170.biom -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots/table_mc15170_sorted.biom
+
+Stdout:
+
+Stderr:
+
+# Summarize Taxonomy command 
+summarize_taxa.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots/table_mc15170_sorted.biom -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots/ 
+
+Stdout:
+
+Stderr:
+
+# Plot Taxonomy Summary command 
+plot_taxa_summary.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots/table_mc15170_sorted_L2.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots/table_mc15170_sorted_L3.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots/table_mc15170_sorted_L4.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots/table_mc15170_sorted_L5.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots/table_mc15170_sorted_L6.txt -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots//taxa_summary_plots/ --chart_type bar
+
+Stdout:
+
+Stderr:
+
+Executing commands.
+
+# Collapse samples in OTU table by categories command 
+collapse_samples.py -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -b /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_mc15170.biom --output_biom_fp /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Study_year/Study_year_otu_table.biom --output_mapping_fp /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Study_year/Study_year_map.txt --collapse_fields 'Study_year' 
+
+Stdout:
+
+Stderr:
+
+# Sort OTU Table command 
+sort_otu_table.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Study_year/Study_year_otu_table.biom -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Study_year/Study_year_otu_table_sorted.biom
+
+Stdout:
+
+Stderr:
+
+# Summarize Taxonomy command 
+summarize_taxa.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Study_year/Study_year_otu_table_sorted.biom -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Study_year/ 
+
+Stdout:
+
+Stderr:
+
+# Plot Taxonomy Summary command 
+plot_taxa_summary.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Study_year/Study_year_otu_table_sorted_L2.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Study_year/Study_year_otu_table_sorted_L3.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Study_year/Study_year_otu_table_sorted_L4.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Study_year/Study_year_otu_table_sorted_L5.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Study_year/Study_year_otu_table_sorted_L6.txt -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Study_year//taxa_summary_plots/ --chart_type bar
+
+Stdout:
+
+Stderr:
+
+Executing commands.
+
+# Collapse samples in OTU table by categories command 
+collapse_samples.py -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -b /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_mc15170.biom --output_biom_fp /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Sex/Sex_otu_table.biom --output_mapping_fp /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Sex/Sex_map.txt --collapse_fields 'Sex' 
+
+Stdout:
+
+Stderr:
+
+# Sort OTU Table command 
+sort_otu_table.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Sex/Sex_otu_table.biom -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Sex/Sex_otu_table_sorted.biom
+
+Stdout:
+
+Stderr:
+
+# Summarize Taxonomy command 
+summarize_taxa.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Sex/Sex_otu_table_sorted.biom -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Sex/ 
+
+Stdout:
+
+Stderr:
+
+# Plot Taxonomy Summary command 
+plot_taxa_summary.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Sex/Sex_otu_table_sorted_L2.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Sex/Sex_otu_table_sorted_L3.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Sex/Sex_otu_table_sorted_L4.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Sex/Sex_otu_table_sorted_L5.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Sex/Sex_otu_table_sorted_L6.txt -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Sex//taxa_summary_plots/ --chart_type bar
+
+Stdout:
+
+Stderr:
+
+Executing commands.
+
+# Collapse samples in OTU table by categories command 
+collapse_samples.py -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -b /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_mc15170.biom --output_biom_fp /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Race_standarized/Race_standarized_otu_table.biom --output_mapping_fp /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Race_standarized/Race_standarized_map.txt --collapse_fields 'Race_standarized' 
+
+Stdout:
+
+Stderr:
+
+# Sort OTU Table command 
+sort_otu_table.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Race_standarized/Race_standarized_otu_table.biom -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Race_standarized/Race_standarized_otu_table_sorted.biom
+
+Stdout:
+
+Stderr:
+
+# Summarize Taxonomy command 
+summarize_taxa.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Race_standarized/Race_standarized_otu_table_sorted.biom -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Race_standarized/ 
+
+Stdout:
+
+Stderr:
+
+# Plot Taxonomy Summary command 
+plot_taxa_summary.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Race_standarized/Race_standarized_otu_table_sorted_L2.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Race_standarized/Race_standarized_otu_table_sorted_L3.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Race_standarized/Race_standarized_otu_table_sorted_L4.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Race_standarized/Race_standarized_otu_table_sorted_L5.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Race_standarized/Race_standarized_otu_table_sorted_L6.txt -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Race_standarized//taxa_summary_plots/ --chart_type bar
+
+Stdout:
+
+Stderr:
+
+Executing commands.
+
+# Collapse samples in OTU table by categories command 
+collapse_samples.py -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -b /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_mc15170.biom --output_biom_fp /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Age_status/Age_status_otu_table.biom --output_mapping_fp /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Age_status/Age_status_map.txt --collapse_fields 'Age_status' 
+
+Stdout:
+
+Stderr:
+
+# Sort OTU Table command 
+sort_otu_table.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Age_status/Age_status_otu_table.biom -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Age_status/Age_status_otu_table_sorted.biom
+
+Stdout:
+
+Stderr:
+
+# Summarize Taxonomy command 
+summarize_taxa.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Age_status/Age_status_otu_table_sorted.biom -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Age_status/ 
+
+Stdout:
+
+Stderr:
+
+# Plot Taxonomy Summary command 
+plot_taxa_summary.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Age_status/Age_status_otu_table_sorted_L2.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Age_status/Age_status_otu_table_sorted_L3.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Age_status/Age_status_otu_table_sorted_L4.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Age_status/Age_status_otu_table_sorted_L5.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Age_status/Age_status_otu_table_sorted_L6.txt -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Age_status//taxa_summary_plots/ --chart_type bar
+
+Stdout:
+
+Stderr:
+
+Executing commands.
+
+# Collapse samples in OTU table by categories command 
+collapse_samples.py -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -b /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_mc15170.biom --output_biom_fp /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Status/Status_otu_table.biom --output_mapping_fp /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Status/Status_map.txt --collapse_fields 'Status' 
+
+Stdout:
+
+Stderr:
+
+# Sort OTU Table command 
+sort_otu_table.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Status/Status_otu_table.biom -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Status/Status_otu_table_sorted.biom
+
+Stdout:
+
+Stderr:
+
+# Summarize Taxonomy command 
+summarize_taxa.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Status/Status_otu_table_sorted.biom -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Status/ 
+
+Stdout:
+
+Stderr:
+
+# Plot Taxonomy Summary command 
+plot_taxa_summary.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Status/Status_otu_table_sorted_L2.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Status/Status_otu_table_sorted_L3.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Status/Status_otu_table_sorted_L4.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Status/Status_otu_table_sorted_L5.txt,/Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Status/Status_otu_table_sorted_L6.txt -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/taxa_plots_Status//taxa_summary_plots/ --chart_type bar
+
+Stdout:
+
+Stderr:
+
+Executing commands.
+
+# Boxplots (Study_year) command 
+make_distance_boxplots.py -d /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//unweighted_unifrac_dm.txt -f Study_year -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//unweighted_unifrac_boxplots/ -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -n 999 
+
+Stdout:
+
+Stderr:
+
+# Boxplots (Sex) command 
+make_distance_boxplots.py -d /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//unweighted_unifrac_dm.txt -f Sex -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//unweighted_unifrac_boxplots/ -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -n 999 
+
+Stdout:
+
+Stderr:
+
+# Boxplots (Race_standarized) command 
+make_distance_boxplots.py -d /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//unweighted_unifrac_dm.txt -f Race_standarized -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//unweighted_unifrac_boxplots/ -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -n 999 
+
+Stdout:
+
+Stderr:
+
+# Boxplots (Age_status) command 
+make_distance_boxplots.py -d /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//unweighted_unifrac_dm.txt -f Age_status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//unweighted_unifrac_boxplots/ -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -n 999 
+
+Stdout:
+
+Stderr:
+
+# Boxplots (Status) command 
+make_distance_boxplots.py -d /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//unweighted_unifrac_dm.txt -f Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//unweighted_unifrac_boxplots/ -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -n 999 
+
+Stdout:
+
+Stderr:
+
+# Boxplots (Study_year) command 
+make_distance_boxplots.py -d /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//weighted_unifrac_dm.txt -f Study_year -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//weighted_unifrac_boxplots/ -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -n 999 
+
+Stdout:
+
+Stderr:
+
+# Boxplots (Sex) command 
+make_distance_boxplots.py -d /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//weighted_unifrac_dm.txt -f Sex -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//weighted_unifrac_boxplots/ -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -n 999 
+
+Stdout:
+
+Stderr:
+
+# Boxplots (Race_standarized) command 
+make_distance_boxplots.py -d /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//weighted_unifrac_dm.txt -f Race_standarized -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//weighted_unifrac_boxplots/ -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -n 999 
+
+Stdout:
+
+Stderr:
+
+# Boxplots (Age_status) command 
+make_distance_boxplots.py -d /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//weighted_unifrac_dm.txt -f Age_status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//weighted_unifrac_boxplots/ -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -n 999 
+
+Stdout:
+
+Stderr:
+
+# Boxplots (Status) command 
+make_distance_boxplots.py -d /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//weighted_unifrac_dm.txt -f Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/bdiv_even15170//weighted_unifrac_boxplots/ -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (gini_index) command 
+compare_alpha_diversity.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div_collated/gini_index.txt -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Study_year,Sex,Race_standarized,Age_status,Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//compare_gini_index -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (simpson) command 
+compare_alpha_diversity.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div_collated/simpson.txt -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Study_year,Sex,Race_standarized,Age_status,Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//compare_simpson -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (strong) command 
+compare_alpha_diversity.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div_collated/strong.txt -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Study_year,Sex,Race_standarized,Age_status,Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//compare_strong -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (doubles) command 
+compare_alpha_diversity.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div_collated/doubles.txt -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Study_year,Sex,Race_standarized,Age_status,Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//compare_doubles -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (equitability) command 
+compare_alpha_diversity.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div_collated/equitability.txt -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Study_year,Sex,Race_standarized,Age_status,Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//compare_equitability -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (simpson_e) command 
+compare_alpha_diversity.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div_collated/simpson_e.txt -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Study_year,Sex,Race_standarized,Age_status,Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//compare_simpson_e -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (shannon) command 
+compare_alpha_diversity.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div_collated/shannon.txt -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Study_year,Sex,Race_standarized,Age_status,Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//compare_shannon -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (PD_whole_tree) command 
+compare_alpha_diversity.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div_collated/PD_whole_tree.txt -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Study_year,Sex,Race_standarized,Age_status,Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//compare_PD_whole_tree -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (observed_species) command 
+compare_alpha_diversity.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div_collated/observed_species.txt -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Study_year,Sex,Race_standarized,Age_status,Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//compare_observed_species -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (fisher_alpha) command 
+compare_alpha_diversity.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div_collated/fisher_alpha.txt -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Study_year,Sex,Race_standarized,Age_status,Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//compare_fisher_alpha -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (dominance) command 
+compare_alpha_diversity.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div_collated/dominance.txt -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Study_year,Sex,Race_standarized,Age_status,Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//compare_dominance -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (berger_parker_d) command 
+compare_alpha_diversity.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div_collated/berger_parker_d.txt -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Study_year,Sex,Race_standarized,Age_status,Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//compare_berger_parker_d -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (singles) command 
+compare_alpha_diversity.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div_collated/singles.txt -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Study_year,Sex,Race_standarized,Age_status,Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//compare_singles -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (chao1) command 
+compare_alpha_diversity.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div_collated/chao1.txt -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Study_year,Sex,Race_standarized,Age_status,Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//compare_chao1 -n 999 
+
+Stdout:
+
+Stderr:
+
+# Compare alpha diversity (simpson_reciprocal) command 
+compare_alpha_diversity.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//alpha_div_collated/simpson_reciprocal.txt -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Study_year,Sex,Race_standarized,Age_status,Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/arare_max15170//compare_simpson_reciprocal -n 999 
+
+Stdout:
+
+Stderr:
+
+# Group significance (Study_year) command 
+group_significance.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_even15170.biom -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Study_year -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/group_significance_Study_year.txt 
+
+Stdout:
+
+Stderr:
+
+# Group significance (Sex) command 
+group_significance.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_even15170.biom -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Sex -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/group_significance_Sex.txt 
+
+Stdout:
+
+Stderr:
+
+# Group significance (Race_standarized) command 
+group_significance.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_even15170.biom -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Race_standarized -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/group_significance_Race_standarized.txt 
+
+Stdout:
+
+Stderr:
+
+# Group significance (Age_status) command 
+group_significance.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_even15170.biom -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Age_status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/group_significance_Age_status.txt 
+
+Stdout:
+
+Stderr:
+
+# Group significance (Status) command 
+group_significance.py -i /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_even15170.biom -m /Volumes/acbm/data/scratch/RobertKwapich/joint_study/mapping/mapping_03.txt -c Status -o /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/group_significance_Status.txt 
+
+Stdout:
+
+Stderr:
+
+# Compress the filtered BIOM table command 
+gzip /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_mc15170.biom
+
+Stdout:
+
+Stderr:
+
+# Compress the rarefied BIOM table command 
+gzip /Volumes/acbm/data/scratch/RobertKwapich/joint_study/usearch92/core_diversity_qiime/table_even15170.biom
+
+Stdout:
+
+Stderr:
+
+
+Logging stopped at 23:37:38 on 19 Jan 2017

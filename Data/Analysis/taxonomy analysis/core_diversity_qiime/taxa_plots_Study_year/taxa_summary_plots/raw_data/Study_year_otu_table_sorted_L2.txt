@@ -1,0 +1,17 @@
+# Constructed from biom file
+#OTU ID	2014_study	2016_study
+d:Archaea;p:Euryarchaeota	0.00126588288235	0.00042005691796
+d:Bacteria;Other	0.00263626689951	0.00240638024733
+d:Bacteria;p:Actinobacteria	0.0357084248041	0.0370230614052
+d:Bacteria;p:Bacteroidetes	0.189373602136	0.464844352997
+d:Bacteria;p:Cyanobacteria/Chloroplast	5.70240760293e-05	4.86520576357e-05
+d:Bacteria;p:Firmicutes	0.674772084315	0.391624490555
+d:Bacteria;p:Fusobacteria	0.00014501145126	0.0106077977869
+d:Bacteria;p:Gemmatimonadetes	1.54816496007e-06	0.0
+d:Bacteria;p:Lentisphaerae	3.61238490684e-06	3.01807679571e-05
+d:Bacteria;p:Parcubacteria	2.06421994676e-06	0.0
+d:Bacteria;p:Proteobacteria	0.03635323551	0.0578441630065
+d:Bacteria;p:Spirochaetes	1.03210997338e-06	0.0
+d:Bacteria;p:Synergistetes	1.29013746673e-05	0.000195927608377
+d:Bacteria;p:Tenericutes	1.29013746673e-06	5.17855799919e-05
+d:Bacteria;p:Verrucomicrobia	0.0596660195337	0.0349031510701

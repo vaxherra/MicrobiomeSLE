@@ -1,0 +1,36 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within Age_status	All between Age_status	-6.8297649289	9.70235306056e-12	2.71665885696e-10	0.001	0.028
+All within Age_status	Middle age vs. Middle age	2.9856110003	0.00285168004901	0.0798470413722	0.007	0.196
+All within Age_status	Older adults vs. Older adults	-1.23168556043	0.21822035869	1	0.214	1.000
+All within Age_status	Young adult vs. Young adult	-6.38971766032	2.03022440421e-10	5.68462833179e-09	0.001	0.028
+All within Age_status	Middle age vs. Older adults	-5.36670107089	8.7582088501e-08	2.45229847803e-06	0.001	0.028
+All within Age_status	Middle age vs. Young adult	-3.88177575957	0.000105765866966	0.00296144427505	0.001	0.028
+All within Age_status	Older adults vs. Young adult	-8.17418939468	5.02212245635e-16	1.40619428778e-14	0.001	0.028
+All between Age_status	Middle age vs. Middle age	9.4566260249	0.0	0.0	0.001	0.028
+All between Age_status	Older adults vs. Older adults	0.621656677522	0.534223280626	1	0.546	1.000
+All between Age_status	Young adult vs. Young adult	-2.71988637605	0.00657047963699	0.183973429836	0.006	0.168
+All between Age_status	Middle age vs. Older adults	-0.445504031275	0.655986084405	1	0.644	1.000
+All between Age_status	Middle age vs. Young adult	2.12425257303	0.033711775911	0.943929725508	0.033	0.924
+All between Age_status	Older adults vs. Young adult	-4.45328747172	8.78535204006e-06	0.000245989857122	0.001	0.028
+Middle age vs. Middle age	Older adults vs. Older adults	-2.22795228816	0.0260361793695	0.729013022347	0.025	0.700
+Middle age vs. Middle age	Young adult vs. Young adult	-8.22613206511	3.76030792228e-16	1.05288621824e-14	0.001	0.028
+Middle age vs. Middle age	Middle age vs. Older adults	-7.72146130388	1.77918532656e-14	4.98171891437e-13	0.001	0.028
+Middle age vs. Middle age	Middle age vs. Young adult	-6.42767299007	1.51717063689e-10	4.24807778329e-09	0.001	0.028
+Middle age vs. Middle age	Older adults vs. Young adult	-10.0661513381	3.3538663667e-23	9.39082582677e-22	0.001	0.028
+Older adults vs. Older adults	Young adult vs. Young adult	-1.76107927637	0.0789406989539	1	0.083	1.000
+Older adults vs. Older adults	Middle age vs. Older adults	-0.839765322537	0.401302339007	1	0.382	1.000
+Older adults vs. Older adults	Middle age vs. Young adult	0.00109465261807	0.999126738631	1	0.997	1.000
+Older adults vs. Older adults	Older adults vs. Young adult	-2.61181063884	0.00932378802401	0.261066064672	0.008	0.224
+Young adult vs. Young adult	Middle age vs. Older adults	2.19990473813	0.0280334453985	0.784936471159	0.031	0.868
+Young adult vs. Young adult	Middle age vs. Young adult	3.6821539139	0.000238170888362	0.00666878487413	0.001	0.028
+Young adult vs. Young adult	Older adults vs. Young adult	-1.25698474825	0.209178408116	1	0.192	1.000
+Middle age vs. Older adults	Middle age vs. Young adult	1.96321019137	0.0497524300036	1	0.046	1.000
+Middle age vs. Older adults	Older adults vs. Young adult	-3.83492184342	0.000133169312439	0.00372874074829	0.001	0.028
+Middle age vs. Young adult	Older adults vs. Young adult	-5.31317189821	1.21288857876e-07	3.39608802051e-06	0.001	0.028

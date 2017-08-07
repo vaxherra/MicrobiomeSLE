@@ -1,6 +1,7 @@
 #!/bin/bash
 source config.txt
 
+mkdir -p logs
 mkdir -p ${BASE_DIR}
 mkdir -p "${BASE_DIR}/mapping"
 

@@ -18,14 +18,14 @@ SEQS_NAME=$1
 CONTAMINANTS_NAME=$2
 
 echo "Begining the filtering of all sequences, producing FASTA output"
-usearch92 -fastq_filter ${SEQS_NAME}.fq -fastq_maxee 1.0 -fastaout ${SEQS_NAME}_decontaminated.fq -threads 1 -fastq_ascii 33
-usearch92 -fastq_filter ${CONTAMINANTS_NAME}.fq -fastq_maxee 1.0 -fastaout ${CONTAMINANTS_NAME}_decontaminated.fq -threads 1 -fastq_ascii 33
+usearch92 -fastq_filter ${SEQUENCE_DIR}${SEQS_NAME}.fq -fastq_maxee 1.0 -fastaout ${SEQUENCE_DIR}${SEQS_NAME}_filtered.fq -threads 1 -fastq_ascii 33
+usearch92 -fastq_filter ${SEQUENCE_DIR}${CONTAMINANTS_NAME}.fq -fastq_maxee 1.0 -fastaout ${SEQUENCE_DIR}${CONTAMINANTS_NAME}_filtered.fq -threads 1 -fastq_ascii 33
 
 echo "Done filtering all sequences, Begining the decontamination process"
 
-if [ -s "${CONTAMINANTS_NAME}_decontaminated.fq" ]; then
+if [ -s "${SEQUENCE_DIR}${CONTAMINANTS_NAME}_filtered.fq" ]; then
   echo "Contaminant file exists: ${CONTAMINANTS_NAME}! Decontaminating now..."
-	exclude_seqs_by_blast.py -i "${SEQS_NAME_FA}" -d "${CONTAMINANTS_NAME_FA}" -o "${SEQUENCE_DIR}decontaminated" -p 0.98
+	exclude_seqs_by_blast.py -i "${SEQUENCE_DIR}${SEQS_NAME}_filtered.fq" -d "${SEQUENCE_DIR}${CONTAMINANTS_NAME}_filtered.fq" -o "${SEQUENCE_DIR}decontaminated" -p 0.98
 fi
 
 echo "Decontamination done!"
@@ -35,3 +35,7 @@ echo "--------------------------------------------------"
 echo "Script ends"
 date
 echo "--------------------------------------------------"
+
+
+
+#   qsub -N decont decontaminate.pbs

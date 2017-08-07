@@ -4,7 +4,7 @@ source config.txt
 mkdir -p ${BASE_DIR}
 mkdir -p "${BASE_DIR}/mapping"
 
-cp MAPPING_F_FP ${BASE_DIR}/mapping/mapping.txt
+cp ${MAPPING_F_FP} ${BASE_DIR}/mapping/mapping.txt
 cp preprocessing_from_mapping.py ${BASE_DIR}/mapping/preprocessing_from_mapping.py
 
 cp -r ncbi_blast ${BASE_DIR}/

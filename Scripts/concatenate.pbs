@@ -6,6 +6,7 @@
 #$ -l mem_free=10G,h_vmem=20G
 #$ -pe threaded 12
 
+source config.txt
 
 echo "--------------------------------------------------"
 echo "Script starts"

@@ -10,6 +10,7 @@ echo "--------------------------------------------------"
 echo "Script starts"
 date
 echo "--------------------------------------------------"
+source config.txt
 
 module load qiime/1.9.1
 

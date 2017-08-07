@@ -39,7 +39,7 @@ if [ ! -s "${MERGE_DIR}${SAMPLE_ID}.fq" ];then
 
 ALT_ID=("${SAMPLE_ID//[-]/_}") #replace dash by underscores
 ALT_ID="s${ALT_ID}"
-	usearch92 -threads 1 -fastq_mergepairs "${BASE_DIR}01_fastq/${SAMPLE_ID}_R1.fastq" -reverse  "${BASE_DIR}01_fastq/${SAMPLE_ID}_R2.fastq" -fastq_maxdiffpct 10  -fastq_maxdiffs 10 -report ${MERGE_DIR}${ALT_ID}.report.txt -relabel ${ALT_ID}. -fastqout "${MERGE_DIR}${ALT_ID}.fq" -fastq_minmergelen 230 -fastq_maxmergelen 270
+	usearch -threads 1 -fastq_mergepairs "${BASE_DIR}01_fastq/${SAMPLE_ID}_R1.fastq" -reverse  "${BASE_DIR}01_fastq/${SAMPLE_ID}_R2.fastq" -fastq_pctid 80  -fastq_maxdiffs 10 -report ${MERGE_DIR}${ALT_ID}.report.txt -relabel ${ALT_ID}. -fastqout "${MERGE_DIR}${ALT_ID}.fq" -fastq_minmergelen 230 -fastq_maxmergelen 270
 	# http://drive5.com/usearch/manual/merge_report.html
 	# Mmerging v4 region, so having read lengths between 230 and 270 would eliminate reads over it
 	# since V4 region produces long overlaps it is worth to increase fastq_maxdiffs parameter from 5 to 10, as Robert C. Edgar points out

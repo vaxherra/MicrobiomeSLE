@@ -14,15 +14,16 @@ source config.txt
 
 module load qiime/1.9.1
 
-
+SEQS_NAME=$1
+CONTAMINANTS_NAME=$2
 
 echo "Begining the filtering of all sequences, producing FASTA output"
-usearch92 -fastq_filter ${SEQS_NAME} -fastq_maxee 1.0 -fastaout ${SEQS_NAME_FA} -threads 1 -fastq_ascii 33
-usearch92 -fastq_filter ${CONTAMINANTS_NAME} -fastq_maxee 1.0 -fastaout ${CONTAMINANTS_NAME_FA} -threads 1 -fastq_ascii 33
+usearch92 -fastq_filter ${SEQS_NAME}.fq -fastq_maxee 1.0 -fastaout ${SEQS_NAME}_decontaminated.fq -threads 1 -fastq_ascii 33
+usearch92 -fastq_filter ${CONTAMINANTS_NAME}.fq -fastq_maxee 1.0 -fastaout ${CONTAMINANTS_NAME}_decontaminated.fq -threads 1 -fastq_ascii 33
 
 echo "Done filtering all sequences, Begining the decontamination process"
 
-if [ -s "${CONTAMINANTS_NAME_FA}" ]; then
+if [ -s "${CONTAMINANTS_NAME}_decontaminated.fq" ]; then
   echo "Contaminant file exists: ${CONTAMINANTS_NAME}! Decontaminating now..."
 	exclude_seqs_by_blast.py -i "${SEQS_NAME_FA}" -d "${CONTAMINANTS_NAME_FA}" -o "${SEQUENCE_DIR}decontaminated" -p 0.98
 fi

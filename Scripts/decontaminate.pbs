@@ -1,7 +1,7 @@
 #!/bin/bash
 #$ -V
 #$ -cwd
-#$ -o rmvContfromAll_log.txt
+#$ -o logs/decontaminate_log.txt
 #$ -j y
 #$ -l mem_free=10G,h_vmem=20G
 #$ -pe threaded 12
